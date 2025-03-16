@@ -7,7 +7,7 @@
 
 #+HTML: <div style="text-align: center;">
 #+ATTR_HTML: :width 300px
-[[file:balding me.jpeg]]
+[[file:me.png]]
 #+HTML: </div>
 
 
