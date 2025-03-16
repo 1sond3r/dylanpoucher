@@ -1,0 +1,229 @@
+/* ========================= */
+/* Global Styles */
+/* ========================= */
+@keyframes rainbow-text {
+    0%   { color: red; }
+    14%  { color: orange; }
+    28%  { color: yellow; }
+    42%  { color: green; }
+    57%  { color: blue; }
+    71%  { color: indigo; }
+    85%  { color: violet; }
+    100% { color: red; } /* Loop back to red */
+}
+
+.rainbow-title {
+    animation: rainbow-text 3s infinite linear;
+}
+
+
+body {
+    background-image: url('starry_background.svg');
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: #111111; /* Deep black */
+    color: #f5f5f5; /* Soft white */
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    font-size: 22px; /* Reduced slightly for better balance */
+    font-weight: 500;
+    line-height: 1.6; /* More readable line spacing */
+    text-align: justify;
+}
+
+/* ========================= */
+/* Headings */
+/* ========================= */
+
+h1 {
+    font-size: 50px; /* Slightly reduced */
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 35px; /* Scaled down for consistency */
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* ========================= */
+/* Blog Post List (Homepage) */
+/* ========================= */
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    text-align: center; /* Center the list */
+}
+
+/* Blog post container */
+li {
+    margin-bottom: 8px; /* More natural spacing */
+    text-align: center;
+}
+
+/* Title as a clickable link */
+.post-title {
+    font-size: 22px; /* Matches body text for consistency */
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* Date should be smaller and inline with title */
+.post-date {
+    font-size: 16px;
+    color: #aaaaaa;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+/* Subtitle as a clickable link */
+.post-subtitle {
+    font-size: 18px; /* Slightly bigger for contrast */
+    color: #bbbbbb;
+    display: block;
+    margin-top: -5px; /* Less spacing */
+    text-decoration: none;
+}
+
+.post-subtitle:hover {
+    text-decoration: underline;
+}
+
+/* ========================= */
+/* Blog Post Styling */
+/* ========================= */
+
+.blog-post {
+    background: rgba(255, 255, 255, 0.00); /* Transparent */
+    padding: 0px;
+    border-radius: 10px;
+}
+
+/* ========================= */
+/* Links & Navigation */
+/* ========================= */
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.navbar a {
+    margin: 0 15px;
+    font-size: 18px;
+    color: #aaaaaa;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* ========================= */
+/* Footer */
+/* ========================= */
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    color: #777777;
+}
+
+/* ========================= */
+/* Special Elements */
+/* ========================= */
+
+/* Blockquotes (Philosophical Quotes) */
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #888;
+    padding: 12px;
+    margin-left: 20px;
+    color: #bbbbbb;
+}
+
+/* Code Blocks */
+pre {
+    background: #222;
+    color: #f5f5f5;
+    padding: 12px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* ========================= */
+/* Hover Effects */
+/* ========================= */
+
+/* Subtle Glow Effect on Hover */
+button, a {
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+button:hover, a:hover {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+/* ========================= */
+/* Subtitle (Within Blog Post) */
+/* ========================= */
+
+span.subtitle {
+    all: unset !important;
+    font-size: 24px !important; /* Reduced for balance */
+    font-weight: 500 !important;
+    text-align: center !important;
+    color: #BBBBBB !important;
+    display: block !important;
+    margin-top: -5px !important;
+    margin-bottom: 15px !important;
+}
+/* ========================= */
+/* Footer Styling */
+/* ========================= */
+
+.footer {
+    text-align: center;  /* Centers the footer content */
+    padding: 20px;
+    font-size: 16px;
+    color: #777777;
+    margin-top: 30px;
+}
+.post-footer-date {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.post-footer-name {
+    font-weight: bold;
+    color: #f5f5f5;
+}
+#postamble {
+    font-size: 20px;       /* Make it smaller */
+    color: #aaaaaa;        /* Slightly lighter text */
+    text-align: left;    /* Center the entire block */
+    margin-top: 20px;      /* Add some space above, if you want */
+}
