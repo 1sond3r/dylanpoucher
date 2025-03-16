@@ -26,7 +26,7 @@ body {
     margin: auto;
     padding: 20px;
     font-size: 22px; /* Reduced slightly for better balance */
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.6; /* More readable line spacing */
     text-align: justify;
 }
@@ -37,15 +37,15 @@ body {
 
 h1 {
     font-size: 50px; /* Slightly reduced */
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 15px;
 }
 
 h2 {
     font-size: 35px; /* Scaled down for consistency */
-    font-weight: 700;
-    margin-bottom: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 
 h3 {
@@ -199,7 +199,7 @@ span.subtitle {
     color: #BBBBBB !important;
     display: block !important;
     margin-top: -5px !important;
-    margin-bottom: 15px !important;
+    margin-bottom: 20px !important;
 }
 /* ========================= */
 /* Footer Styling */

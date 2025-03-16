@@ -62,5 +62,5 @@ echo "</ul>" >> "$OUTPUT_DIR/index.html"
 #echo "<script type='text/javascript' src='https://counter.websiteout.com/js/3/15/0/0'></script>" >> "$OUTPUT_DIR/index.html"
 
 # Footer
-echo "<div class='footer'> © Dylan 2025. Written in Emacs Orgmode because I am the man.</div>" >> "$OUTPUT_DIR/index.html"
+echo "<div class='footer'> © Dylan 2025. Written in Emacs Orgmode because I am the man, man.</div>" >> "$OUTPUT_DIR/index.html"
 echo "</body></html>" >> "$OUTPUT_DIR/index.html"
