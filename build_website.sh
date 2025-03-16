@@ -30,6 +30,5 @@ cp -f ~/org/website/style.css ~/org/website/
 
 # Step 5: Serve website locally
 echo "🌍 Opening website at http://localhost:8000"
-cd ~/org/website && python3 -m http.server 8000
-
+firefox ~/org/website/index.html
 echo "✅ Website build complete!"
