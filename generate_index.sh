@@ -3,7 +3,8 @@
 OUTPUT_DIR=~/org/website
 mkdir -p "$OUTPUT_DIR"
 
-echo "<html><head><title>My Website</title>" > "$OUTPUT_DIR/index.html"
+echo "<html><head><title>Dylan's Blog</title>" > "$OUTPUT_DIR/index.html"
+echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">" >> "$OUTPUT_DIR/index.html"
 echo "<link href='https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap' rel='stylesheet'>" >> "$OUTPUT_DIR/index.html"
 echo "<link rel='stylesheet' type='text/css' href='style.css'/>" >> "$OUTPUT_DIR/index.html"
 echo "</head><body>" >> "$OUTPUT_DIR/index.html"
@@ -61,5 +62,5 @@ echo "</ul>" >> "$OUTPUT_DIR/index.html"
 #echo "<script type='text/javascript' src='https://counter.websiteout.com/js/3/15/0/0'></script>" >> "$OUTPUT_DIR/index.html"
 
 # Footer
-echo "<div class='footer'> ©Dylan 2025. Written in Emacs Orgmode because I am the man</div>" >> "$OUTPUT_DIR/index.html"
+echo "<div class='footer'> © Dylan 2025. Written in Emacs Orgmode because I am the man.</div>" >> "$OUTPUT_DIR/index.html"
 echo "</body></html>" >> "$OUTPUT_DIR/index.html"
