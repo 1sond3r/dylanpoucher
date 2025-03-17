@@ -7,6 +7,9 @@
 #+OPTIONS: html-postamble:<p>Published on <span class="post-footer-date">DATE_HERE</span> by <span class="post-footer-name">Dylan</span></p>
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
+#+HTML_HEAD_EXTRA: <style>  img { max-width: 100%; height: auto; } </style>
+
+
 I have listened to David Bowie a non inconsiderable amount.
 * 26: Black Tie White Noise (1993)
 #+ATTR_HTML: :align center :width 500px
