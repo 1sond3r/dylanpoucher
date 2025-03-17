@@ -1,5 +1,6 @@
 #+TITLE: Multidimensional Concepts
 #+SUBTITLE: Crazy Fuckery
+#+TAGS: Philosophy, Mathematics
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/><link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
 #+OPTIONS: html-postamble:nil'Your content here...
 

@@ -1,27 +1,112 @@
-<html><head><title>Dylan's Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href='https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap' rel='stylesheet'>
-<link rel='stylesheet' type='text/css' href='style.css'/>
-</head><body>
-<div class='navbar'>
-<a href='index.html'>Home</a> | <a href='about.html'>About</a>
+<html>
+<head>
+    <title>Dylan's Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="navbar">
+    <a href="index.html">Home</a> | <a href="about.html">About</a>
 </div>
-<h1 class=rainbow-title>Dylan's Blog</h1>
+<h1 class="rainbow-title">Dylan's Blog</h1>
+<div id="active-filters"><strong>  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  </strong></div>
 <ul>
-<li>
-<a href='reversable-computing.html' class='post-link'>
-<strong class='post-title'>Reversable Computing</strong>
-<span class='post-date'>(20-12-25)</span><br>
-<span class='post-subtitle'>How to save the universe</span>
-</a>
-</li>
-<li>
-<a href='multidimensional-concepts.html' class='post-link'>
-<strong class='post-title'>Multidimensional Concepts</strong>
-<span class='post-date'>(1970-01-01)</span><br>
-<span class='post-subtitle'>Crazy Fuckery</span>
-</a>
-</li>
+    <li class="post-item" data-tags="Physics Mathematics">
+        <a href="reversable-computing.html" class="post-link">
+            <strong class="post-title">Reversable Computing</strong>
+            <span class="post-date">(20-12-25)</span><br>
+            <span class="post-subtitle">How to save the universe</span>
+        </a>
+        <div class="post-tags">
+            <span class='tag' onclick="toggleFilter('Physics')">Physics</span>
+            <span class='tag' onclick="toggleFilter('Mathematics')">Mathematics</span>
+        </div>
+    </li>
+    <li class="post-item" data-tags="Philosophy Mathematics">
+        <a href="multidimensional-concepts.html" class="post-link">
+            <strong class="post-title">Multidimensional Concepts</strong>
+            <span class="post-date">(1970-01-01)</span><br>
+            <span class="post-subtitle">Crazy Fuckery</span>
+        </a>
+        <div class="post-tags">
+            <span class='tag' onclick="toggleFilter('Philosophy')">Philosophy</span>
+            <span class='tag' onclick="toggleFilter('Mathematics')">Mathematics</span>
+        </div>
+    </li>
 </ul>
-<div class='footer'> © Dylan 2025. Written in Emacs Orgmode because I am the man, man.</div>
-</body></html>
+<div class="footer">© Dylan 2025. Written in Emacs Orgmode because I am the man, man.</div>
+<script>
+let activeFilters = new Set();
+
+let tagColors = new Map();
+
+const colorPalette = [
+    "#CC241D", // Muted Red
+    "#D79921", // Warm Yellow
+    "#458588", // Teal Blue
+    "#B16286", // Muted Magenta
+    "#689D6A", // Forest Green
+    "#D65D0E", // Rust Orange
+    "#FABD2F", // Deep Golden Yellow
+    "#83A598", // Cool Cyan
+    "#FE8019", // Darker Orange
+    "#928374", // Neutral Brown-Gray
+    "#A89984", // Faded Taupe
+    "#665C54", // Gruvbox Darker Gray
+    "#3C3836", // Gruvbox Darkest Brown
+];
+
+function getTagColor(tag) {
+    if (!tagColors.has(tag)) {
+        let index = tagColors.size % colorPalette.length;
+        tagColors.set(tag, colorPalette[index]);
+    }
+    return tagColors.get(tag);
+}
+
+
+function updateFilters() {
+    const posts = document.querySelectorAll('.post-item');
+    const activeFilterContainer = document.getElementById('active-filters');
+
+    if (activeFilters.size === 0) {
+        posts.forEach(post => post.style.display = 'block');
+        activeFilterContainer.innerHTML = '<strong>    ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎    </strong>';
+        return;
+    }
+
+    posts.forEach(post => {
+        const postTags = post.dataset.tags.split(' ');
+        post.style.display = [...activeFilters].some(tag => postTags.includes(tag)) ? 'block' : 'none';
+    });
+
+    activeFilterContainer.innerHTML = '<strong> Filters: </strong>';
+    activeFilters.forEach(tag => {
+        const tagElement = document.createElement('span');
+        tagElement.className = 'tag active-filter';
+        tagElement.innerText = tag;
+        tagElement.style.backgroundColor = getTagColor(tag);
+        tagElement.style.color = '#fff';
+        tagElement.onclick = () => toggleFilter(tag);
+        activeFilterContainer.appendChild(tagElement);
+    });
+}
+
+function toggleFilter(tag) {
+    if (activeFilters.has(tag)) activeFilters.delete(tag);
+    else activeFilters.add(tag);
+    updateFilters();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.post-tags .tag').forEach(tagElement => {
+        const tagText = tagElement.innerText.trim();
+        tagElement.style.backgroundColor = getTagColor(tagText);
+        tagElement.style.color = '#fff';
+        tagElement.onclick = () => toggleFilter(tagText);
+    });
+});
+</script>
+</body>
+</html>

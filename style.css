@@ -227,3 +227,29 @@ span.subtitle {
     text-align: left;    /* Center the entire block */
     margin-top: 20px;      /* Add some space above, if you want */
 }
+/* Active Filters Section */
+#active-filters {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: -25px;
+
+    padding: 5px;
+}
+
+/* Tag Buttons (Clickable) */
+.tag, .active-filter {
+    display: inline-block;
+    color: white; /* Ensures readability */
+    padding: 2px 4px;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.tag:hover, .active-filter:hover {
+    filter: brightness(1.2); /* Slightly brighten on hover */
+}

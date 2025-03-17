@@ -3,64 +3,153 @@
 OUTPUT_DIR=~/org/website
 mkdir -p "$OUTPUT_DIR"
 
-echo "<html><head><title>Dylan's Blog</title>" > "$OUTPUT_DIR/index.html"
-echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">" >> "$OUTPUT_DIR/index.html"
-echo "<link href='https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap' rel='stylesheet'>" >> "$OUTPUT_DIR/index.html"
-echo "<link rel='stylesheet' type='text/css' href='style.css'/>" >> "$OUTPUT_DIR/index.html"
-echo "</head><body>" >> "$OUTPUT_DIR/index.html"
+# Static header
+cat > "$OUTPUT_DIR/index.html" <<'EOL'
+<html>
+<head>
+    <title>Dylan's Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="navbar">
+    <a href="index.html">Home</a> | <a href="about.html">About</a>
+</div>
+<h1 class="rainbow-title">Dylan's Blog</h1>
+<div id="active-filters"><strong>  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  </strong></div>
+<ul>
+EOL
 
-# Navbar
-echo "<div class='navbar'>" >> "$OUTPUT_DIR/index.html"
-echo "<a href='index.html'>Home</a> | <a href='about.html'>About</a>" >> "$OUTPUT_DIR/index.html"
-echo "</div>" >> "$OUTPUT_DIR/index.html"
-
-echo "<h1 class="rainbow-title">Dylan's Blog</h1>" >> "$OUTPUT_DIR/index.html"
-echo "<ul>" >> "$OUTPUT_DIR/index.html"
-
-# Extract and sort blog posts by date
+declare -A unique_tags
 posts=()
+
+# Extract metadata
 for file in "$OUTPUT_DIR"/*.org; do
     filename=$(basename "$file" .org)
 
-    # Extract metadata from Org files
     title=$(awk -F': ' '/^#\+TITLE:/ {print $2}' "$file")
     subtitle=$(awk -F': ' '/^#\+SUBTITLE:/ {print $2}' "$file")
     date=$(awk -F': ' '/^#\+DATE:/ {print $2}' "$file")
+    tags=$(awk -F': ' '/^#\+TAGS:/ {print $2}' "$file")
 
-    # If the date is missing, assign a default to avoid sorting errors
-    if [ -z "$date" ]; then
-        date="1970-01-01"
-    fi
+    [[ -z "$date" ]] && date="1970-01-01"
 
-    # Convert date to Unix timestamp for sorting
     timestamp=$(date -d "$date" +%s 2>/dev/null || echo 0)
 
-    # Add post info to array
-    posts+=("$timestamp|$date|$filename|$title|$subtitle")
+    clean_tags=$(echo "$tags" | sed 's/,/ /g' | xargs)
+
+    for tag in $clean_tags; do
+        unique_tags["$tag"]=1
+    done
+
+    posts+=("$timestamp|$date|$filename|$title|$subtitle|$clean_tags")
 done
 
-# Sort posts by date (newest first)
-IFS=$'\n' sorted_posts=($(sort -rn <<<"${posts[*]}"))
+IFS=$'\n' sorted_posts=($(sort -t '|' -rn <<<"${posts[*]}"))
 unset IFS
+
+# Generate HTML for each post
 for post in "${sorted_posts[@]}"; do
-    IFS='|' read -r timestamp pdate filename title subtitle <<< "$post"
-        # Skip about.html
-    if [[ "$filename" == "about" ]]; then
-        continue
-    fi
-    echo "<li>" >> "$OUTPUT_DIR/index.html"
-    echo "<a href='$filename.html' class='post-link'>" >> "$OUTPUT_DIR/index.html"
-    echo "<strong class='post-title'>$title</strong>" >> "$OUTPUT_DIR/index.html"
-    echo "<span class='post-date'>($pdate)</span><br>" >> "$OUTPUT_DIR/index.html"
-    echo "<span class='post-subtitle'>$subtitle</span>" >> "$OUTPUT_DIR/index.html"
-    echo "</a>" >> "$OUTPUT_DIR/index.html"
-    echo "</li>" >> "$OUTPUT_DIR/index.html"
+    IFS='|' read -r timestamp pdate filename title subtitle tags <<< "$post"
+
+    [[ "$filename" == "about" ]] && continue
+
+    cat >> "$OUTPUT_DIR/index.html" <<EOL
+    <li class="post-item" data-tags="$tags">
+        <a href="$filename.html" class="post-link">
+            <strong class="post-title">$title</strong>
+            <span class="post-date">($pdate)</span><br>
+            <span class="post-subtitle">$subtitle</span>
+        </a>
+        <div class="post-tags">
+EOL
+    for tag in $tags; do
+        echo "            <span class='tag' onclick=\"toggleFilter('$tag')\">$tag</span>" >> "$OUTPUT_DIR/index.html"
+    done
+
+    echo "        </div>" >> "$OUTPUT_DIR/index.html"
+    echo "    </li>" >> "$OUTPUT_DIR/index.html"
 done
 
-echo "</ul>" >> "$OUTPUT_DIR/index.html"
-#echo "<p><a href='https://www.hitwebcounter.com' target='_blank'>Visit Counter</a></p>" >> "$OUTPUT_DIR/index.html"
-#echo "<script type='text/javascript' src='https://counter.websiteout.com/js/3/15/0/0'></script>" >> "$OUTPUT_DIR/index.html"
+# JavaScript (corrected and checked carefully!)
+cat >> "$OUTPUT_DIR/index.html" <<'EOL'
+</ul>
+<div class="footer">© Dylan 2025. Written in Emacs Orgmode because I am the man, man.</div>
+<script>
+let activeFilters = new Set();
 
-# Footer
-echo "<div class='footer'> © Dylan 2025. Written in Emacs Orgmode because I am the man, man.</div>" >> "$OUTPUT_DIR/index.html"
-echo "</body></html>" >> "$OUTPUT_DIR/index.html"
+let tagColors = new Map();
+
+const colorPalette = [
+    "#CC241D", // Muted Red
+    "#D79921", // Warm Yellow
+    "#458588", // Teal Blue
+    "#B16286", // Muted Magenta
+    "#689D6A", // Forest Green
+    "#D65D0E", // Rust Orange
+    "#FABD2F", // Deep Golden Yellow
+    "#83A598", // Cool Cyan
+    "#FE8019", // Darker Orange
+    "#928374", // Neutral Brown-Gray
+    "#A89984", // Faded Taupe
+    "#665C54", // Gruvbox Darker Gray
+    "#3C3836", // Gruvbox Darkest Brown
+];
+
+function getTagColor(tag) {
+    if (!tagColors.has(tag)) {
+        let index = tagColors.size % colorPalette.length;
+        tagColors.set(tag, colorPalette[index]);
+    }
+    return tagColors.get(tag);
+}
+
+
+function updateFilters() {
+    const posts = document.querySelectorAll('.post-item');
+    const activeFilterContainer = document.getElementById('active-filters');
+
+    if (activeFilters.size === 0) {
+        posts.forEach(post => post.style.display = 'block');
+        activeFilterContainer.innerHTML = '<strong>    ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎    </strong>';
+        return;
+    }
+
+    posts.forEach(post => {
+        const postTags = post.dataset.tags.split(' ');
+        post.style.display = [...activeFilters].some(tag => postTags.includes(tag)) ? 'block' : 'none';
+    });
+
+    activeFilterContainer.innerHTML = '<strong> Filters: </strong>';
+    activeFilters.forEach(tag => {
+        const tagElement = document.createElement('span');
+        tagElement.className = 'tag active-filter';
+        tagElement.innerText = tag;
+        tagElement.style.backgroundColor = getTagColor(tag);
+        tagElement.style.color = '#fff';
+        tagElement.onclick = () => toggleFilter(tag);
+        activeFilterContainer.appendChild(tagElement);
+    });
+}
+
+function toggleFilter(tag) {
+    if (activeFilters.has(tag)) activeFilters.delete(tag);
+    else activeFilters.add(tag);
+    updateFilters();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.post-tags .tag').forEach(tagElement => {
+        const tagText = tagElement.innerText.trim();
+        tagElement.style.backgroundColor = getTagColor(tagText);
+        tagElement.style.color = '#fff';
+        tagElement.onclick = () => toggleFilter(tagText);
+    });
+});
+</script>
+</body>
+</html>
+EOL
+
+echo "✅ Index successfully generated at $OUTPUT_DIR/index.html"
