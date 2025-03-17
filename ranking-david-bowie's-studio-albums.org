@@ -1,12 +1,263 @@
 #+TITLE: Ranking David Bowie's Studio Albums
 #+SUBTITLE: The official ranking
 #+TAGS: Culture
+#+DATE: 17-03-25
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/><link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
 #+HTML_HEAD: <div class="navbar"><a href="index.html">Home</a> | <a href="about.html">About</a></div>
 #+OPTIONS: html-postamble:<p>Published on <span class="post-footer-date">DATE_HERE</span> by <span class="post-footer-name">Dylan</span></p>
-* Diamond Dogs
-* Ziggy Stardust
-* Station to Station
-* Low
-* Heroes
-* Earthling
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+I have listened to David Bowie a non inconsiderable amount.
+* 26: Black Tie White Noise (1993)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1993-Black-Tie-White-Noise-David-Bowie-billboard-1000.jpg?w=1000]]
+
+Really shit. Slightly embarrassing that he considered this an improvement upon
+his 80s work. "The Wedding" is so dated and terrible sounding I almost can't
+believe it.
+
+* 25: 'Hours...' (1999)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1999-Hours-David-Bowie-billboard-1000.jpg?w=1000]]
+
+Can't remember much of it, poor singing and songwriting seems to be my main
+recollection. I think I sort of liked "What's Really Happening." Almost the
+opposite of its predecessor: lacking energy, distinguishing features and /meaning/
+both in and of itself and in Bowie's career as a whole. A huge step down and
+disappointing blip in the Bowie narrative of steady improvement from the 90s
+onwards.
+
+* 24: Never Let Me Down (1987)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1987-Never-Let-Me-Down-David-Bowie-billboard-1000.jpg?w=1000]]
+
+Really crap. "Day in Day Out" is one of the most ludicrous songs ever made.
+"Time Will Crawl" is the only song with any redeeming qualities. The fact that
+it is /so/ 80s, and represents a musician at his most insecure at least gives it
+appeal as a historical artefact.
+
+* 23: Pin Ups (1973)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1973_Pin_Ups_David-Bowie-billboard-1000.jpg?w=1000]]
+
+Some fine covers, mostly forgettable. Anodyne. Universally considered a bizarre
+release in the midst of his first golden period.
+
+* 22: The Buddha of Suburbia (1993)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1993-The-Buddha-of-Suburbia-David-Bowie-billboard-1000.jpg?w=1000]]
+
+A significant improvement upon Black Tie White Noise of the same year. Nothing
+incredible, and the production is equally dated, but the songwriting is better.
+A bit of a Britpoppy feel, especially with that Gallagher-style vocal bit in the
+title track, you know what I'm talking about.
+
+* 21: Tonight (1984)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1984-Tonight-David-Bowie-billboard-1000.jpg?w=1000]]
+
+Slightly over-hated, it's fine. Although beginning the descent into self-parody
+("Loving the Alien") he still has a proper song or two to offer. "Blue Jean" is
+great. The covers are awful. I get the sense it was not the hit he wanted, but
+still sold strongly.
+
+* 20: David Bowie (1967)
+#+ATTR_HTML: :align center :width 500px
+[[https://matthasanopinion.com/wp-content/uploads/2020/07/david-bowie-debut.jpg?w=758]]
+
+I find myself defending this one. Weird in an interesting way I think. Certainly
+mercifully short. I never listen to it though. A lot of the instincts which
+produce the charm of this record pop up throughout his career with decreasing
+charm.
+
+* 19: Heathen (2002)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/2002-Heathen-David-Bowie-billboard-1000.jpg?w=1000]]
+
+This is when these albums start to get kind of good! A big seller too, "Slow
+Burn" is great. Not much more to say. A thankful improvement upon its
+predecessor.
+
+* 18: The Next Day (2013)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/2013-The-Next-Day-David-Bowie-billboard-1000.jpg?w=1000]]
+
+The comeback after a decade, I like it. A self-conscious extension of his
+"Heroes" sound (look at the cover). Nothing super standout apart from maybe
+"Where Are We Now" which was also the first single. Simple but moving, not too
+edgy which I wish was true of more of the album.
+
+* 17: Reality (2003)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/2003-Reality-David-Bowie-billboard-1000.jpg?w=1000]]
+
+Surprisingly good considering the dreadful cover art. He's in good voice here
+too: listen to "New Killer Star." A backwards-looking album I would say, lots of
+Modern Lovers influence with the sloppy guitars (and cover of "Pablo Picasso").
+"Bring Me the Disco King" is an effective closer and would end up being his last
+song for 10 years after having a heart attack during the associated promo tour
+for the album.
+
+* 16: The Man Who Sold the World (1970)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1970-The-Man-Who-Sold-the-World-david-bowie-David-Bowie-billboard-1000.jpg?w=1000]]
+
+I used to really like this one for some reason. Again, has good ideas, but may
+actually be a step back from 1969. Feels a bit more dated somehow with the
+"Black Country" sound. Some great tracks though. "All the Madmen" and the title
+track especially. Nothing to touch the highs of the previous record however.
+
+* 15: David Bowie (1969)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1969-david-bowie-david-bowie-David-Bowie-billboard-1000.jpg?w=1000]]
+
+Lots of songs go on too long, but most of them have really great moments or
+interesting ideas. "Space Oddity" is a triumph, the ending of "Cygnet Committee"
+is fantastic. "Memory of a Free Festival" feels like a classic hippie chant but
+apparently wasn't. I don't know, I like it.
+
+* 14: Lodger (1979)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1979-Lodger-David-Bowie-billboard-1000.jpg?w=1000]]
+
+A grower. Initially nondescript but actually has some very nice pop writing.
+"DJ" is amazing, "Fantastic Voyage," "Boys Keep Swinging," the same. Okay?! Some
+dirge, but certainly nothing offensive.
+
+* 13: Outside (1995)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1995-Outside-David-Bowie-billboard-1000.jpg?w=1000]]
+
+Like it: his true artistic comeback after the 80s. Trying too hard maybe but at
+least the results are interesting. Probably too long, but I actually enjoy the
+segues and concept even if it in a postmodern, condescending kind of way. How
+innocent we were in 1995. The sound he goes for is certainly pushing it for a
+48-year-old man, but he just about pulls it off. For the most part, good to
+great songs: the highlight being a rerecording of a track of a Buddha of
+Suburbia track actually: "Strangers When We Meet." Its main draw is as an entire
+album though.
+
+* 12: Scary Monsters (and Super Creeps) (1980)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1980-Scary-Monsters-And-Super-Creeps-David-Bowie-billboard-1000.jpg?w=1000]]
+
+First side is fantastic, really, really good and makes you wonder what the 80s
+could have been. You've got your pop and your experimentation nicely mixed
+unlike the bipolar regimentation of Low and "Heroes." The second side for me has
+always been a strange flop. "Teenage Wildlife" just never hit. All the elements
+are there but they just don't come together. The same for the rest of the songs.
+
+* 11: Let's Dance (1983)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1983-Lets-Dance-David-Bowie-billboard-1000.jpg?w=1000]]
+
+Love it, love it, love it. Indulgent but incredibly listenable pop music.
+Fantastic production, making even the fluff "Ricochet," etc. really quite
+pleasurable. Even "China Girl," with its questionable Osterberg lyrics, makes
+the unexpected transmogrification into transcendent pop song complete with
+addictive riff! True magic. The centrepiece, giving the album its name, was a
+hit of such scale that it led Bowie to quixotically chase popular adulation for
+the next decade or so.
+
+* 10: Blackstar (2016)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/david-bowie-blackstar-2016-billboard-1000.jpg]]
+
+Look, I want to like this more than I do. Everyone seems to rate it much higher.
+It's great, sure. Consistent, interesting, emotional, etc. He uses his aged
+voice well. There isn't really a dud. I don't know, I can do what I want.
+
+* 9: Hunky Dory (1971)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1971-Hunky-Dory-David-Bowie-billboard-1000.jpg?w=1000]]
+
+Some absolute resounding classics on here which would have etched Bowie's name
+in the stars regardless of what came after. I cannot help but feel they are
+/slightly/ tiresome. Something about "Changes" and "Life on Mars" grate on me a
+little bit. So much good material though, even if the overall album experience
+feels a bit lacking. Glam has nearly taken over here but some of his folksier
+tendencies are still present.
+
+* 8: Aladdin Sane (1973)
+#+ATTR_HTML: :align center :width 500px
+[[https://storage.highresaudio.com/library/bild/c_490000/499992/field4.jpg]]
+
+Song for song, not much to fault it for really. Lacks a certain grandiosity and
+individuality which albums like Ziggy Stardust and Diamond Dogs have in spades
+though. In a Bowie album of this period I want a ridiculous concept goddammit!
+That being said there's certainly a lot of good noise on here, and I would
+regard this as his "heaviest" album in terms of cranking the amps up. Lots of
+fun: rock 'n roll man. Probably the high point of glam.
+
+* 7: "Heroes" (1977)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1977-Heroes-David-Bowie-billboard-1000.jpg?w=1000]]
+
+Low but slightly worse. Amazing how different the sound is overall though
+considering they originate from the same year. "Heroes" is perhaps his best song
+though, anthemic, etc. The ambient stuff I like more actually. I don't know, it
+may actually be better than Low but nostalgia stops me from admitting this.
+
+* 6: Low (1977)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1977-Low-David-Bowie-billboard-1000.jpg?w=1000]]
+
+We had this in the car and I listened to it a lot. The first half is probably
+the best side he ever did. The ambient stuff is sometimes great but let's be
+honest it has been far superseded.
+
+* 5: Young Americans (1975)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1975-Young-AmericansDavid-Bowie-billboard-1000.jpg?w=1000]]
+
+Guilty pleasure, I can identify its problems but my god I cannot stop listening
+to it. Objectively boring and terrible at times, "Across the Universe" is a low
+point and is yet more proof Bowie's strong point is not covers. Has greats to
+balance out the trash, a great album in terms of singing.
+
+* 4: Earthling (1997)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1997-Earthling-David-Bowie-billboard-1000.jpg?w=1000]]
+
+To some degree the "Young Americans" of the 90s in terms of Bowie meddling in
+genres he probably shouldn't. Enormously guilty pleasure, but I just can't stop
+listening. Much, much better production than anything else of his from around
+this period, and the energy is infectious. Also am I crazy or is the songwriting
+the best it has been in years? "Little Wonder" /is/ a wonder! "Looking for
+Satellites" builds gloriously, "Battle for Britain (The Letter)" is highly
+memorable.
+
+* 3: Diamond Dogs (1974)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1974-Diamond-DogsDavid-Bowie-billboard-1000.jpg?w=1000]]
+
+This for me is the most David Bowie David Bowie album. Glam, concept, hits,
+style, gender trouble, ridiculousness: I acknowledge another guilty pleasure
+okay! I can see its faults in the Shaft-style wah-wah of "1984" but quite
+frankly I think you need to stop "wah-wah"-ing yourself and man the fuck up.
+This is a decadent masterpiece made when Bowie's cultural cool was at high
+enough levels to envelop and justify any act of hubris imaginable.
+
+
+* 2: Station to Station (1976)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1976-Station-to-Station-David-Bowie-billboard-1000.jpg?w=1000]]
+
+Some of his greatest singing and by far his most consistent record. Adding some
+edge to that blue-eyed-soul makes it much more critically palatable, it seems.
+Not a note is out of place or without purpose. It makes me depressed knowing
+that music like this will never be released again. The riff alone in "Stay" has
+more music in it than anything released in the last 20 years. I don't care if I
+sound like a miserable cunt.
+
+* 1: The Rise and Fall of Ziggy Stardust and the Spiders from Mars (1972)
+#+ATTR_HTML: :align center :width 500px
+[[https://www.billboard.com/wp-content/uploads/media/1972-The-Rise-and-Fall-of-Ziggy-Stardust-and-the-Spiders-from-Mars-David-Bowie-billboard-1000.jpg?w=1000]]
+
+I hate to be conventional here but let's be honest, it is his best album. Easily
+his most significant, with greatest songwriting. Perhaps not the most
+consistent, but in many ways this represents to me the zenith of youth culture.
+Bowie has been there and done it, and it will never happen again. You can only
+parody the very concept of popular superstardom once, a parody of a parody isn't
+clever, it's increasingly lazy and pathetic and we are now at the seventh
+generation of parody. Just be happy it happened.

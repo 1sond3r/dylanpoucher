@@ -21,7 +21,7 @@ body {
     background-image: url('starry_background.svg');
     font-family: 'Ibarra Real Nova', serif;
     background-color: #111111; /* Deep black */
-    color: #f5f5f5; /* Soft white */
+    color: #ffffff; /* Soft white */
     max-width: 700px;
     margin: auto;
     padding: 20px;
@@ -74,7 +74,7 @@ li {
 .post-title {
     font-size: 22px; /* Matches body text for consistency */
     font-weight: bold;
-    color: white;
+    color:#ffffff;
     text-decoration: none;
 }
 
