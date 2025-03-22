@@ -32,6 +32,7 @@ for file in "$OUTPUT_DIR"/*.org; do
     subtitle=$(awk -F': ' '/^#\+SUBTITLE:/ {print $2}' "$file")
     date=$(awk -F': ' '/^#\+DATE:/ {print $2}' "$file")
     tags=$(awk -F': ' '/^#\+TAGS:/ {print $2}' "$file")
+    convert=$(awk -F': ' '/^#\+Convert:/ {print $2}' "$file")
 
     [[ -z "$date" ]] && date="1970-01-01"
 
@@ -54,6 +55,7 @@ for post in "${sorted_posts[@]}"; do
     IFS='|' read -r timestamp pdate filename title subtitle tags <<< "$post"
 
     [[ "$filename" == "about" ]] && continue
+    [[ "$convert" != "yes" ]] && continue
 
     cat >> "$OUTPUT_DIR/index.html" <<EOL
     <li class="post-item" data-tags="$tags">
