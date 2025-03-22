@@ -32,7 +32,7 @@ for file in "$OUTPUT_DIR"/*.org; do
     subtitle=$(awk -F': ' '/^#\+SUBTITLE:/ {print $2}' "$file")
     date=$(awk -F': ' '/^#\+DATE:/ {print $2}' "$file")
     tags=$(awk -F': ' '/^#\+TAGS:/ {print $2}' "$file")
-    convert=$(awk -F': ' '/^#\+Convert:/ {print $2}' "$file")
+    convert=$(awk -F': ' '/^#\+CONVERT:/ {print $2}' "$file")
 
     [[ -z "$date" ]] && date="1970-01-01"
 
@@ -44,7 +44,7 @@ for file in "$OUTPUT_DIR"/*.org; do
         unique_tags["$tag"]=1
     done
 
-    posts+=("$timestamp|$date|$filename|$title|$subtitle|$clean_tags")
+    posts+=("$timestamp|$date|$filename|$title|$subtitle|$clean_tags|$convert")
 done
 
 IFS=$'\n' sorted_posts=($(sort -t '|' -rn <<<"${posts[*]}"))
@@ -52,7 +52,7 @@ unset IFS
 
 # Generate HTML for each post
 for post in "${sorted_posts[@]}"; do
-    IFS='|' read -r timestamp pdate filename title subtitle tags <<< "$post"
+    IFS='|' read -r timestamp pdate filename title subtitle tags convert<<< "$post"
 
     [[ "$filename" == "about" ]] && continue
     [[ "$convert" != "yes" ]] && continue

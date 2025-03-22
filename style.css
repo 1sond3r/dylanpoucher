@@ -22,10 +22,10 @@ body {
     font-family: 'Ibarra Real Nova', serif;
     background-color: #111111; /* Deep black */
     color: #ffffff; /* Soft white */
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
     padding: 20px;
-    font-size: 22px; /* Reduced slightly for better balance */
+    font-size: 20px; /* Reduced slightly for better balance */
     font-weight: 400;
     line-height: 1.6; /* More readable line spacing */
     text-align: justify;
@@ -104,7 +104,7 @@ li {
 /* ========================= */
 
 .blog-post {
-    background: rgba(255, 255, 255, 0.00); /* Transparent */
+    background: rgba(255, 255, 255, 0.0); /* Transparent */
     padding: 0px;
     border-radius: 10px;
 }
