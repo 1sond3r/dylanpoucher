@@ -2,7 +2,7 @@
 #+SUBTITLE: The official ranking
 #+TAGS: Culture
 #+DATE: 17-03-25
-#+CONVERT:
+#+CONVERT: yes
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/><link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
 #+HTML_HEAD: <div class="navbar"><a href="index.html">Home</a> | <a href="about.html">About</a></div>
 #+OPTIONS: html-postamble:<p>Published on <span class="post-footer-date">DATE_HERE</span> by <span class="post-footer-name">Dylan</span></p>
@@ -73,7 +73,7 @@ onwards.
 
 Really crap. "Day in Day Out" is one of the most ludicrous songs ever made.
 "Time Will Crawl" is the only song with any redeeming qualities. The fact that
-it is /so/ 80s, and represents a musician at his most insecure at least gives it
+it is so 80s, and represents a musician at his most insecure at least gives it
 appeal as a historical artefact.
 
 * 23: Pin Ups (1973)
@@ -249,31 +249,81 @@ honest it has been far superseded.
 #+ATTR_HTML: :align center :width 500px
 [[https://www.billboard.com/wp-content/uploads/media/1975-Young-AmericansDavid-Bowie-billboard-1000.jpg?w=1000]]
 
-A guilty pleasure. I can identify the problems but my god this must be my most
-streamed album of his. Appositely named, this is where Bowie does a full 180
-from the increasingly passé British glam to (only slightly less passé)
-Philadelphia soul. The stakes were high. Mark Bolan of T-Rex, fellow glam
-progenitor and in his heyday the bigger star, had attempted the same transition
-the year before - to the apparent effect of extinguishing all of the band's
-remaining chart success. In retrospect however, the commercial flop of the
-justly slated /Zinc Alloy/ album was more to do with Bolan's declining ability to
-make a good record (of /any/ genre), than with the metaphysical rejection of a
-British rocker going soul. Young Americans, in contrast, spawned Bowie's first
-US No. 1, secured him as one of the first white artists featured on Soul
-Train, and stood as his best-selling album to date. It turns out the public are
-not exacting when it comes to musical philosophy. However, the appropriateness
-of such a transition for critics was troubling then as now. I am one of the few
-who believe it payed off beyond being a mere stepping stone to more acclaimed
-work, but as something stylish and, in its way, unparalleled.
+- Background
+  - The State of Glam
+  - The State of Soul
+  -
 
-The record is just so /listenable/. Helped enormously by an authentic band, the
-assembling of which would prove to be Bowie's most valuable skill throughout his
-career. Carlos Alomar is on guitar, coming from the Apollo Theatre house band
-(of /James Brown, Live at The Apollo/ fame), bringing deep RnB chops. A member of
-Sly (Andy Newmark) is on drums. The gospel-tinged backing vocals, which
-completely elevate the album, were arranged by Luther Vandross of all people,
-who (I read) went on to have hit duets with Janet Jackson and Mariah Carey, so
-he must be good. John Lennon is on it too just for fun.
+e like Bowie's heterochromatic-eyed, soul.
+
+
+
+Bowie's transmogrification from mulleted glam alien to soulful funkster in late
+1974 was the first real risk since his hard-won celebrity, and the first real
+experiment. This was an era of British artists flirting with African-American
+influences, usually to disastrous effect. Marc Bolan of T-Rex (fellow glam
+progenitor and at in '74 the bigger star) had seen his own dalliances torpedo
+all of the band's remaining chart potential. Their ridiculously titled /Zinc
+Alloy and the Hidden Riders of Tomorrow/ album is an entertaining if baffling
+soul reinterpretation of Bolan's boogie-glam formula: each syncopated stab of
+guitar being backed by a veritable orchestra. To choose another example with
+which I happen to be familiar, George Harrison also had a go alongside his old
+guard of musicians (Klaus Voormann, Nicky Hopkins, Billy Preston, etc), with the
+decidedly soggy /Extra Texture/. Both attempts bombed commercially - as did all
+the results of such dilettantism from the period.
+
+Bowie in contrast, and almost uniquely, went all in: the look, the songs, the
+band, everything. The image change was sudden: Lurid overalls and
+anti-establishment hairdo became polyester suits and slick side-parted coiffure.
+The musical change was more gradual. Already with '73's /Aladdin Sane/
+(who conveniently looked exactly like Ziggy), tolerably white Americana was
+seeping in. It was Jazzier, bluesier and doo-wopier than its self-consciously
+English predecessor. While the following /Diamond Dogs/ album has definite soul
+influences in the form of shaft-style wah, electric pianos, and crooning vocals
+it too remained fundamentally a glam project. Like /Zinc Alloy/, I have a
+misguided appreciation for how schizophrenic it is, but its obvious why
+sales-wise it was a step down from the more focused /Aladdin Sane/: Bowie risked
+dabbling. Funky songs like /1984/ really do feel questionable in a Bolan kind of
+way, and likewise sank like a stone commercially. Contrastingly, the elements
+which retained an unalloyed glam feel, like the immortal centrepiece, /Rebel
+Rebel/, were big hits.
+
+Bowie's nerve held, however. Ziggy may have "Gone to America" in '73, but it
+wasn't until late '74 David Jones truly followed. The full move only really took
+place during the /Diamond Dogs/ tour. The first leg in July already had the new
+look, and the songs had a new plastic sheen over them, though they were still
+played by the original Diamond Dogs band. Quite a band, with names like Herbie
+Flowers on Bass and Earl Slick on guitar, but hardly genre authentic. During a
+one month break in August, during which began recording of 1975's /Young
+Americans/ in Philadelphia, the metamorphosis continued and much of the band was
+replaced with dyed-in-the-wool soul musicians. Carlos Alomar was now on guitar,
+coming from the Apollo Theatre house band. The gospel-tinged backing vocals,
+which became gradually more prominent during the tour (the number of singers
+ultimately tripling), were arranged by a painfully young Luther Vandross - who,
+much later, went on to have hit duets with Janet Jackson and Mariah Carey. If
+that doesn't indicate talent I don't know what does. Songs to be on /Young
+Americans/ were folded into the set, purpose-designed for the new soul image, as
+opposed to the awkwardly funked-up adaptations of previous hits.
+
+The shows themselves, for a time, continued to be a theatrical bonanza
+characteristic of glam excess - including giant hands bespectacled with
+light-bulbs and temperamental motorised bridges (Bowie tended to get stuck over
+the audience while singing Moonage Daydream). By October however, the chrysalis
+had completely burst open: the elaborate staging was scrapped, the band
+finalised (Dennis Davis now on drums) and the tour re-branded as "The Soul Tour."
+This new "Soul Man" persona was the true first in, and set the archetype for, a
+career defined by image makeovers.
+
+While nowadays I think most people look back on this particular transition as
+positive in the long run, if only for incubating the critically adored /Station
+to Station/ from 1976. Its fair to say that musically, the first result of /Young
+Americans/ remains slightly more divisive. For me on the other hand, despite its
+admittedly patchy track listing and preponderance of sax, /Young Americans/ may
+just be my most played Bowie record. While its quality as an album is easily
+surpassed, there are tons of elements and individual tracks which feel
+incredibly unique, and subsequently unexplored by almost anybody. You can find a
+million Ziggy-worshipping bands of the post-punk school in the late 70s/early
+80s, but I can't think of anything else quite like this.
 
 The title track immediately introduces the sleek, mid-tempo groove that
 permeates much of the album. The vocals the breathy, strained and oh-so-
@@ -283,8 +333,205 @@ lake before the great swell of the chorus: brilliant. 'Fascination' is a funky
 clavinet based torrent (we like our pained water metaphors) which is just
 made by those backing vocalists. The following track 'Right' is probably my
 favourite on the album and feels like a sister to fascination: it brings back
-some atmosphere through a persistent tension which is never quite released. The
-call-response style fucks, okay. Christ it just makes you want to be in a band.
+some atmosphere through a persistent tension which is never quite released.
+
+The album admittedly is objectively boring or terrible at times, "Across the
+Universe" is a low point and is yet more proof Bowie's strong point is not
+covers. "Somebody Up There Likes Me" feels forced and "Can You Hear Me" is a bit
+of a dud (the ending is cool though). They both fall into the trap all soul
+risks: Feeling a bit overproduced and saccharine: lacking distinctiveness. I
+think these solecisms are made up for by "Fame" which was the American hit. More
+Lennon influence on this one: he contributed guitar, backing vocals, and helped
+with the writing (by apparently reversing a middle-8 by Stevie Wonder). Its the
+opposite of nondescript, and probably the funkiest track on the record. Driven
+by a great big fat distorted guitar lick, it seems to prefigure some of the
+darker elements of the following, much less commercial, Station to Station.
+
+That figure we both respect and tut-tut for his endless quest for the hip, and I
+mean /hip/ in the most grandiloquent sense, was fully born not in Brixton but
+Philadelphia; the product of his successful re-baptism into the church of
+blue-eyed - or, to put it with suitable pretension, heterochromatic-eyed soul.
+The congregation accepted him with open arms and platinum sales. While his peers
+were falling by the wayside, /Young Americans/ spawned his first US No. 1, secured
+him as one of the first white artists featured on Soul Train, and stood as his
+best-selling album to date. It was this first forbidden sip of true
+superstardom, complete with surreal televised Cher duet, which would give him
+the confidence for his most experimental highs (Low, Earthling) and neuroticism
+for his most simpering lows (Tonight, Never Let Me Down).
+
+
+
+
+
+
+
+
+
+
+All that is to say, its an important album and slightly overlooked. Without
+context, it seems to lack the aesthetic daring of his more ostentatious periods,
+but there are loads of elements and individual tracks here which feel incredibly
+unique and subsequently unexplored by almost anybody. You can find a million
+Ziggy-worshipping bands of the post-punk school in the late 70s/early 80s, but I
+can't think of anything quite like Bowie's approach to soul. I think it's just
+great!
+
+
+
+Well what for the music itself?
+
+All that is to say,
+it's an important period!
+
+
+
+
+
+It is this kind of immersion which stops
+the record from feeling like the mere dilettantism seen in Harrison, Bolan or
+countless others in the '74-'75 period. Despite never being sonically ahead of
+the curve, Bowie's striking depth of commitment creates the irresistible
+illusion of a visionary - which, in the pop world, is about as good as it gets.
+
+
+"The Soul Man"
+was the true first in, and set the archetype for, a career of image makeovers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Its a little bit strange looking back at the TV appearances from
+theis period, Bowie is treated sort of like a pretty uncool yacht rocker or
+something. Duets with Cher, opening the Grammys, comedically demonstrating
+self-defence techniques all feel very disjunctive from where Bowie had been or
+was going. It almost feels like a mini "Let's Dance" period.
+
+
+As for the
+music, I would tentatively place /Young Americans/ among the triumphs of his
+discography.
+
+
+
+Technicolor overalls changed to polyester suits
+
+
+
+must given mister Jones the confidence throughout the rest of his career
+to continue chasing that
+
+
+Musically, there
+had been warning signs: Ziggy had already gone to America with Aladdin
+Sane
+
+and the kalideoscopic Diamond Dogs
+
+The final change occurred with remarkable spontaneity during the especially
+debauched later legs of the 1974 tour. Technicolor overalls changed to polyester
+suits sequined with lies which sparkled brighter than the truth.
+
+Bowie's /Young
+Americans/ from 1975 marks the a new haircut, and necessarily
+a new genre to go along with it.
+
+
+and a switch
+from technicolor overalls to polyester suits; sequined with lies which sparkled
+brighter than the truth.
+
+
+"/Ziggy goes to America/" was the first in a long line of
+performative flaunts done to cement a reputation as a cultural Proteus,
+
+and its success was vital for his
+subsequent 40 year career of aesthetic vitality.
+
+
+
+A guilty pleasure. Flawed, yes, with its patchy track listing and preponderance
+of sax, but without question my most streamed Bowie LP. Aptly named, /Young
+Americans/ marks Bowie's turn from the slightly passé British glam to the more
+aesthetically vital Philadelphia soul. The stakes were high: Marc Bolan of T-Rex
+(fellow glam progenitor and in '74 the bigger star) had seen his own flirtations
+with Americana torpedo all of his remaining chart potential. In retrospect,
+however, the commercial failure of the garrulously titled and critically slated
+"/Zinc Alloy and the Hidden Riders of Tomorrow/" was guaranteed by Bolan's
+declining songwriting abilities in /any/ genre not from popular incredulity
+toward British rockers getting funky. Bowie's effort, in contrast, spawned his
+first US No. 1, secured him as one of the first white artists featured on Soul
+Train, and stood as his best-selling album to date.`
+
+While it turned out the public's musical metaphysics ended at the dance floor,
+the more scholastic critics found the transition troubling. The so-called "/Ziggy
+goes to America/" pivot was the first in a long line of performative flaunts done
+to cement a reputation as a cultural Proteus. Going soul then would be the
+equivalent of making a rap album today — decades later, Mr. David Jones would in
+fact veer in that unfortunate direction. But here, he gets it right. It stands
+as one of his most successful and peerless transitions. You can find a million
+Ziggy-worshipping bands of the post-punk school in the late 70s / early 80s, and
+even echoes of the sleazy art-funk that Bowie would develop by 1976, but I can
+personally think of nothing else quite like Bowie's heterochromatic-eyed, soul.
+
+The success of a major genre switch seems to depend on two things: especially
+robust songs, and the authority of an authentic band. While Bowie's propensity
+for the former ebbed and flowed, he nearly always retained a remarkable
+curatorial instinct - and nerve - to surround himself with genuinely fresh
+talent. The musical opposite to my mind is George Harrison: he made some
+terrific albums in the early 70s when his influences were vital, but the
+ossification of his unchanging circle led to increasing stylistic
+stultification. His own unsuccessful forays into soul with /Extra Texture/ were
+done with the same tired old guard of English musicians he had been using
+since 1970. I think Bowie lived his life in neurotic fear of that possibility.
+
+For /Young Americans/ Carlos Alomar is on guitar, coming from the Apollo Theatre
+house band (of /James Brown, Live at The Apollo/ fame), bringing deep RnB chops. A
+member of Sly (Andy Newmark) is on drums. The gospel-tinged backing vocals,
+which completely elevate the album, were arranged by Luther Vandross of all
+people. (Who, much later, went on to have hit duets with Janet Jackson and
+Mariah Carey.) It is this kind of immersion which stops the record from feeling
+like the mere dilettantism seen in Harrison, Bolan or countless others in the
+'74-'75 period. Despite never being sonically ahead of the curve, Bowie's
+striking depth of commitment creates the irresistible illusion of a visionary -
+which, in the pop world, is about as good as it gets.
+
+John Lennon is on it too just for fun.
+
+The title track immediately introduces the sleek, mid-tempo groove that
+permeates much of the album. The vocals are breathy, strained and oh-so-
+plastic, but combined with those fantastic backing singers the effect becomes
+something quite inimitable. 'Win' slows it down, verses lapping like water on a
+lake before the great swell of the chorus: brilliant. 'Fascination' is a funky
+clavinet based torrent (we like our pained water metaphors) which is just
+made by those backing vocalists. The following track 'Right' is probably my
+favourite on the album and feels like a sister to fascination: it brings back
+some atmosphere through a persistent tension which is never quite released.
+
+
+
+, the
+assembling of which would prove to be Bowie's most valuable skill throughout his
+career.
+
+The title track immediately introduces the sleek, mid-tempo groove that
+permeates much of the album. The vocals the breathy, strained and oh-so-
+plastic, but combined with those fantastic backing singers the effect becomes
+something quite inimitable. 'Win' slows it down, verses lapping like water on a
+lake before the great swell of the chorus: brilliant. 'Fascination' is a funky
+clavinet based torrent (we like our pained water metaphors) which is just
+made by those backing vocalists. The following track 'Right' is probably my
+favourite on the album and feels like a sister to fascination: it brings back
+some atmosphere through a persistent tension which is never quite released.
 
 The album admittedly is objectively boring or terrible at times, "Across the
 Universe" is a low point and is yet more proof Bowie's strong point is not
@@ -299,7 +546,7 @@ by a great big fat distorted guitar lick, it seems to prefigure some of the
 darker elements of the following, much less commercial, Station to Station.
 
 The overall impression of the album is definitely that of a transitional work
-probably towards greater things, but there are loads of elements and individual
+probably towards greater things, but` there are loads of elements and individual
 tracks here which feel incredibly unique and subsequently unexplored by almost
 anybody really. You can find a million Ziggy-worshipping bands of the post-punk
 school in the late 70s/early 80s, and even echoes of the art funk that Bowie
