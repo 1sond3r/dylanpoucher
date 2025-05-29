@@ -16,21 +16,19 @@
     animation: rainbow-text 3s infinite linear;
     font-family: 'UnifrakturMaguntia', serif;
     font-size: 80px;
-    margin-top: -20px;
-
+    margin-top: -10px;
 }
-
 
 body {
     background-image: url('starry_background.svg');
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Caudex', serif;
     background-color: #111111; /* Deep black */
     color: #ffffff; /* Soft white */
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    font-size: 20px; /* Reduced slightly for better balance */
-    font-weight: 400;
+    font-size: 18px; /* Reduced slightly for better balance */
+    font-weight: 300;
     line-height: 1.6; /* More readable line spacing */
     text-align: justify;
 }
@@ -41,20 +39,17 @@ body {
 
 h1 {
     font-size: 50px; /* Slightly reduced */
-    font-weight: 600;
     text-align: center;
     margin-bottom: 15px;
 }
 
 h2 {
     font-size: 35px; /* Scaled down for consistency */
-    font-weight: 600;
     margin-bottom: 15px;
 }
 
 h3 {
     font-size: 28px;
-    font-weight: 600;
     margin-bottom: 10px;
 }
 
@@ -77,7 +72,6 @@ li {
 /* Title as a clickable link */
 .post-title {
     font-size: 22px; /* Matches body text for consistency */
-    font-weight: bold;
     color:#ffffff;
     text-decoration: none;
 }
@@ -108,8 +102,8 @@ li {
 /* ========================= */
 
 .blog-post {
-    background: rgba(255, 255, 255, 0.0); /* Transparent */
-    padding: 0px;
+    background: rgba(255, 255, 255, 1); /* Transparent */
+    padding: 10px;
     border-radius: 10px;
 }
 
