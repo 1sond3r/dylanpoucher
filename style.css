@@ -19,16 +19,20 @@
     margin-top: -10px;
 }
 
-
+.box {
+  background-color: #000;
+}
 
 body {
     font-family: 'Caudex', serif;
     background-color: #000000; /* Deep black */
-    background:
+    /*background:
         url('res.svg') left top /550px auto repeat-y,
         url('res(1).svg') right top /550px auto repeat-y,
         #000000;
-    color: #ffffff; /* Soft white */
+    color: #ffffff; Soft white */
+    background-image: url("AdobeStock_479037072.jpeg");
+    background-size: 200px;
     max-width: 600px;
     margin: auto;
     padding: 20px;
