@@ -23,6 +23,7 @@ cat > "$OUTPUT_DIR/index.html" <<'EOL'
     <a href="index.html">Home</a> | <a href="about.html">About</a>
 </div>
 <h1 class="rainbow-title">Dylan's Blog</h1>
+<div class ="box"></box>
 <div id="active-filters"><strong>  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  </strong></div>
 <ul>
 EOL

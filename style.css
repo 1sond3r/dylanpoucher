@@ -19,23 +19,25 @@
     margin-top: -10px;
 }
 
+
+
 body {
-    background-image: url('starry_background.svg');
     font-family: 'Caudex', serif;
-    background-color: #111111; /* Deep black */
+    background-color: #000000; /* Deep black */
+    background:
+        url('res.svg') left top /550px auto repeat-y,
+        url('res(1).svg') right top /550px auto repeat-y,
+        #000000;
     color: #ffffff; /* Soft white */
     max-width: 600px;
     margin: auto;
     padding: 20px;
     font-size: 18px; /* Reduced slightly for better balance */
     font-weight: 300;
-    line-height: 1.6; /* More readable line spacing */
+    line-height: 1.5; /* More readable line spacing */
     text-align: justify;
 }
 
-/* ========================= */
-/* Headings */
-/* ========================= */
 
 h1 {
     font-size: 50px; /* Slightly reduced */
@@ -58,6 +60,7 @@ h3 {
 /* ========================= */
 
 ul {
+    margin-top: 40px;
     list-style-type: none; /* Remove bullets */
     padding: 0;
     text-align: center; /* Center the list */
