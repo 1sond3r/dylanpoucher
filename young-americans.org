@@ -3,9 +3,9 @@
 #+TAGS: Culture
 #+DATE: 10-04-25
 #+CONVERT: yes
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/><link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/>
+#+HTML_HEAD: <div class="navbar"><a href="index.html">Home</a> | <a href="about.html">About</a></div> <div class ="box"></box>
 
-#+HTML_HEAD: <div class="navbar"><a href="index.html">Home</a> | <a href="about.html">About</a></div>
 #+OPTIONS: html-postamble:<p>Published on <span class="post-footer-date">DATE_HERE</span> by <span class="post-footer-name">Dylan</span></p>
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil

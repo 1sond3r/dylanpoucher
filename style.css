@@ -13,19 +13,37 @@
 }
 
 .rainbow-title {
-    animation: rainbow-text 3s infinite linear;
+    /*animation: rainbow-text 3s infinite linear; */
     font-family: 'UnifrakturMaguntia', serif;
+    color: #fbf1c7;
     font-size: 80px;
     margin-top: -10px;
 }
 
 .box {
-  background-color: #000;
+  background-color: #101417;
+  padding-left: 20px;
+  padding-right: 20px
 }
+
+@font-face {
+            font-family: "tuffte";
+            src: url("et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+@font-face {
+            font-family: "Caudex";
+            src: url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap") format("stylesheet");
+        }
+
+
 
 body {
     font-family: 'Caudex', serif;
-    background-color: #000000; /* Deep black */
+    background-color:  #101417; /* Deep black */
+    color: #fbf1c7;
     /*background:
         url('res.svg') left top /550px auto repeat-y,
         url('res(1).svg') right top /550px auto repeat-y,
@@ -33,15 +51,18 @@ body {
     color: #ffffff; Soft white */
     background-image: url("AdobeStock_479037072.jpeg");
     background-size: 200px;
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
-    padding: 20px;
-    font-size: 18px; /* Reduced slightly for better balance */
+    padding: 22px;
+    font-size: 22px; /* Reduced slightly for better balance */
     font-weight: 300;
     line-height: 1.5; /* More readable line spacing */
-    text-align: justify;
 }
 
+#content {
+    font-family: "tuffte", serif;
+    color: #fbf1c7;
+ }
 
 h1 {
     font-size: 50px; /* Slightly reduced */
@@ -79,7 +100,7 @@ li {
 /* Title as a clickable link */
 .post-title {
     font-size: 22px; /* Matches body text for consistency */
-    color:#ffffff;
+    color:#fbf1c7;
     text-decoration: none;
 }
 
@@ -125,7 +146,7 @@ a {
 }
 
 a:hover {
-    color: #ffffff;
+    color: #fbf1c7;
     text-decoration: underline;
 }
 
@@ -172,7 +193,7 @@ blockquote {
 
 /* Code Blocks */
 pre {
-    background: #222;
+    background: #fbf1c1;
     color: #f5f5f5;
     padding: 12px;
     border-radius: 8px;
