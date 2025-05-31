@@ -1,6 +1,10 @@
 /* ========================= */
 /* Global Styles */
 /* ========================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+
 @keyframes rainbow-text {
     0%   { color: red; }
     14%  { color: orange; }
@@ -16,7 +20,7 @@
     /*animation: rainbow-text 3s infinite linear; */
     font-family: 'UnifrakturMaguntia', serif;
     color: #fbf1c7;
-    font-size: 80px;
+    font-size: 120px;
     margin-top: -10px;
 }
 
@@ -33,15 +37,9 @@
             font-style: normal;
         }
 
-@font-face {
-            font-family: "Caudex";
-            src: url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap") format("stylesheet");
-        }
-
-
 
 body {
-    font-family: 'Caudex', serif;
+    font-family: 'tuffte', serif;
     background-color:  #101417; /* Deep black */
     color: #fbf1c7;
     /*background:
@@ -50,34 +48,30 @@ body {
         #000000;
     color: #ffffff; Soft white */
     background-image: url("AdobeStock_479037072.jpeg");
-    background-size: 200px;
+    background-size: 700px;
     max-width: 800px;
     margin: auto;
-    padding: 22px;
+    padding: 20px;
     font-size: 22px; /* Reduced slightly for better balance */
     font-weight: 300;
     line-height: 1.5; /* More readable line spacing */
 }
 
-#content {
-    font-family: "tuffte", serif;
-    color: #fbf1c7;
- }
-
 h1 {
+    font-family: "Caudex";
     font-size: 50px; /* Slightly reduced */
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 h2 {
     font-size: 35px; /* Scaled down for consistency */
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 h3 {
     font-size: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 /* ========================= */
@@ -89,6 +83,8 @@ ul {
     list-style-type: none; /* Remove bullets */
     padding: 0;
     text-align: center; /* Center the list */
+    font-family: "Caudex";
+
 }
 
 /* Blog post container */
