@@ -1,7 +1,7 @@
 #+TITLE: David Bowie's "Young Americans"
 #+SUBTITLE: His most important album
 #+TAGS: Culture
-#+DATE: 10-04-25
+#+DATE: 29-07-25
 #+CONVERT: yes
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/>
 #+HTML_HEAD: <div class="navbar"><a href="index.html">Home</a> | <a href="about.html">About</a></div> <div class ="box"></box>
