@@ -1,5 +1,5 @@
 #+TITLE: David Bowie's "Young Americans"
-#+SUBTITLE: Album Review
+#+SUBTITLE: His most important album
 #+TAGS: Culture
 #+DATE: 10-04-25
 #+CONVERT: yes
@@ -12,231 +12,48 @@
 #+HTML_HEAD_EXTRA: <style>  img { max-width: 100%; height: auto; } </style>
 
 
-#+ATTR_HTML: :align center :width 500px
+#+CAPTION: The "Young Americans" album cover [1975]
 [[https://www.billboard.com/wp-content/uploads/media/1975-Young-AmericansDavid-Bowie-billboard-1000.jpg?w=1000]]
 
+Bowie's transformation from mulleted glam alien to soulful crooner on 1975's /Young Americans/ represents his first genuine stylistic experiment, and first real career risk. It was one which paid off spectacularly. While many of his peers were stagnating commercially and artistically, /Young Americans/ spawned Bowie's first US No. 1 and secured him among the first white musicians featured on Soul Train. Even today, it remains one of his best-selling albums, with 7 million total shipped. I think it was a record which precipitated Bowie's best and worst instincts as an artist — laying the groundwork both for his commercial '80s output, but also giving him the confidence for truly radical reinvention.
 
-Title: Young Americans: The Birth of David Bowie and the Death of Glam
+The mid-'70s was awash with British artists flirting with African-American influences in inverse proportion to the decline of glam and hard rock. To illustrate this: by my estimation, the UK No. 1 single was glam-influenced during 31 of the 52 chart weeks in 1973. This was the year of Slade, Wizzard, Sweet, 10cc, etc. topping the charts. By 1976, there were basically none — and the number of soul-influenced weeks had increased from zero to eighteen.
 
+This period acted as the first great filter of '60s musicians. The option seemed either to try and fail to convert to Americana, or make forgettable soft rock. (Punk needed a year or two.) Let us use the Beatles as a case study. Harrison made a terrible soul album in 1975 called /Extra Texture/, before converting to soft rock with 1976's /33 and 1/3/. Ringo — who was actually extremely successful in the early '70s — had his first flop with 1976's /Ringo's Rotogravure/, another terrible soul-influenced album. He then doubled down with 1976's /Ringo the Fourth/, which was quite an early white disco album. It also flopped. John Lennon had fortunately stopped making music.
 
- Almost uniquely, Bowie succeeded where his peers failed. Conquering new
-markets as well as new styles
+Beyond the Beatles, an example more relevant to Bowie is Marc Bolan of T. Rex. Bolan was in many ways the godfather of glam alongside Bowie. Although starting together as groovy folk singers and slowly developing glam together, it was Bolan who introduced the genre to a mass audience in 1971 when he sang UK No. 1 Hot Love on Top of the Pops, donning shiny overalls and glitter makeup. He went on to have ten UK top 10 singles between 1971 and 1973 and was, for a time, called “bigger than the Beatles.” In an important sense, he /was/ glam — and so inevitably would die with it.
 
-
-Bowie's transmogrification from mulleted glam alien to soulful crooner on /Young
-Americans/ represents his first genuine stylistic experiment, and first real
-career risk. It was a risk which paid off spectacularly. While many of his peers
-were falling by the wayside, /Young Americans/ spawned Bowie's first US No. 1 hit
-and secured him among the first white musicians featured on Soul Train. It
-today remains one of his best selling albums.
-
-The commercial reception of such a dramatic shift fundamentally shaped Bowie's
-artistic identity over the next two decades. This first intoxicating taste of
-true international superstardom, complete with surreal televised Cher duet, gave
-him the confidence to coolly reject fame and freely experiment. However, it came
-with the neurotic expectation that these highs should be recaptured as he
-pleased. It is the tension between these instincts which characterise Bowie from
-1975: the emergence of a figure to whom all genres must capitulate, sometimes
-for the cause of popular enlightenment and sometimes seeking only popular
-adulation. A figure both we respect and gently mock for all of his glorious, and
-at times embarrassing, iterations. That Bowie was born not in Brixton, nor even
-on Mars, but rather after a re-baptism into the church of blue-eyed (though
-heterochromatic) soul.
-
-The mid 70s was awash with British artists flirting with such African-American
-influences to pretty woeful effect. An particularly illustrative example is Marc
-Bolan's band "T-Rex". Bolan was in many ways the godfather of the Glam alongside
-Bowie. "Fathering" may very well be the most apposite verb here, as in the 60s
-Marc and David both shared a flat together and Bolan claims at one point they
-were even going to get married! They talked about their dreams of becoming
-stars, while getting nowhere because of their shared insterest in childish folky
-nonsense at the beginning of their careers. Bowie's weird 1967 debut is a long
-way from glam, and Bolan's early meanderings with bongo player Micky Finn are
-amusing and effective but lacking. Both careers until 1970 had minor hits (Space
-oddity and Deborah being the biggest respectively) but it wasn't until Bolan
-released "Ride A White Swan" in 1970 that it was clear something interesting was
-happening. This was the first time that Bolan had plugged in an "gone electric"
-like his idol Bob Dylan. It was a big hit, reaching number 2 in the UK. It
-contains many of the basic elements which seem to characterise glam in
-miniature. A sort of flamboyance combined with trashiness. The same year Bolan
-helped Bowie with a single called "The Prettiest Star" (later to be re-recorded
-and featured on 1973's Aladdin Sane record). However forgotten now (as then), it
-was probably the first truly unalloyed glam release.
-
-The follow up would be the moment where glam arrived unambiguously. Donning
-shiny overalls, in 1971, Bolan got on Top of the Pops to sing UK No. 1 "Hot
-Love." This moment marked the beginning of the Glam era. Soon Bolan would
-release the wonderful "Electric Warrior" album, chock full of energetic
-boogie-infused glam fun and other monster singles like "Get it on" and
-"Jeepster". Bowie would also release his Glam debut the same year with "Hunky
-Dory." with resounding glammy classics like "Life on Mars" and "Changes." 1972
-saw Bolan's biggest year. He was touted as "bigger than the Beatles." He secured
-two more No. 1s in the form of "Metal Guru" and "Telegram Sam" (which was
-basically the same song as Get it On but with a different chorus: its still
-great) It was also the year of Ziggy Stardust: the record which stands today as
-the definitive glam statement. Indulgent, colourful and youthful. I would say
-that peak glam (in terms of market saturation) was probably in 1973. Slade,
-Queen, Elton John and millions of lesser acts like David Essex and Garry Glitter
-were all getting in on it. In America, not so much. They didn't really take to
-the whole aesthetic over there. I have heard it claimed that this is because
-they didn't have the whole British music-hall culture predating there beforehand,
-making the public at least having some folk-memory of male performers wearing
-makeup.
-
-1973 also saw the beginning of the decline, or at least stagnation, of Bolan.
-While the year did have some big hits: "Children of the Revolution" (another
-reworking of a previous song "Builk Makane") and the tremendous bolt of
-lightning "20th Century Boy" there were no number ones. The record released that
-year "Tanx" had no singles and sold well, but again only got to number 3. Bolan,
-who foresaw the emergence of glam, also seemed to foresee its decline.
-
-1974 was where things were really layed out in the open. Bowie's "Diamond Dogs" record that
-year was a weird mix of glam and
+#+CAPTION: Bolan and Starr duing the shoot of the "Born to Boogie" film, with Ringo as director! [1972]
+https://www.nme.com/wp-content/uploads/2020/11/GettyImages-85513658-696x442.jpg
 
 
-first appeared on top of the
-pops donning
+By 1974, glam — and, as if spiritually linked, Bolan himself — were starting to look a little unwell, and so he attempted to pivot. The album /Zinc Alloy and the Hidden Riders of Tomorrow/, belonging to a genre Bolan baptised “Interstellar Supersoul,” was the predictably unsuccessful result. Not that I hate the record or anything, but it was essentially a standard T. Rex album with a load of strings on top and his wife, Gloria Jones, wailing in the background. From accumulated goodwill alone, the album peaked at 12 in the charts before dropping out in just three weeks. Bolan never really regained commercial or artistic viability again, and certainly never broke the American market as he had hoped.
 
-Glam Rock. In '74 a bigger star than Bowie,
-had seen their own dalliances with the ridiculously titled /Zinc Alloy and the
-Hidden Riders of Tomorrow/, torpedo their chart prospects.
+#+CAPTION: A decidedly not lithe Marc Bolan with wife Gloria Jones. [1974]
+https://i.pinimg.com/736x/01/79/60/017960beece4704804a654ed8b011b23.jpg
 
 
+Bowie very well could have gone through the same thing. He also, besides a folk hit or two, had essentially derived his success up to 1974 from feeding off and perpetuating the glam wave — scoring eight top tens from ’72 to ’74. Though he too felt the wind changing by ’74 and began to dabble in funk and soul to questionable effect. While remaining a fundamentally glam project, with big unalloyed glam singles like /Rebel Rebel/, /Diamond Dogs/' tracklist was bespeckled with new African-American influences — principally, the Shaft-feeling /1984/ and backing-singer-filled /Rock ’n’ Roll with Me/. While I rather enjoy these influences — as in Bolan’s case, they contribute to a rock decadence which I personally find irresistible — there's with it a new sense of inauthenticity which isn’t entirely deliberate. They feel like /Aladdin Sane/ in a polyester suit. An album exclusively of songs like them would be problematic indeed — if not for me, then for the public and critics.
 
+Well, a release just like that kind of happened later in the year with /David Live/ — a fascinating live album coinciding with the American /Diamond Dogs/ tour of July 1974. It freeze-frames Bowie mid soul-inflection, having funked up all of his material for the stage — but without any justification why yet. The reviews were so brutal that Mick Jagger commented he would never record again if he got them. Some examples: “A weird and utterly incongruous melange of glitter sentiment, negritudinal trappings (yikes), cocaine ecstasy and Vegas schmaltz.” (Lester Bangs). “The artiste [is] at his laryngeal nadir, [the album is] mired in bullshit pessimism and arena-rock pandering — and the soul frills just make it worse.” (Robert Christgau). Part of the problem was that the soul stylings were perceived as mere “frills.” In spite of the side-parted hair and new plastic-y sheen over the songs, they continued to be played by the original, distinctly English /Diamond Dogs/ band. Quite a band, with names like Herbie Flowers on bass and Earl Slick on guitar — but hardly genre-authentic.
 
-That figure we both respect and tut-tut for his endless quest for the hip was
-fully born not in Brixton but Philadelphia; the product of his successful
-re-baptism into the church of blue-eyed - or, maybe, heterochromatic-eyed soul.
-While his peers were falling by the wayside, /Young Americans/ spawned his first
-US No. 1, secured him as one of the first white artists featured on Soul Train,
-and stood as his best-selling album to date. It was this first forbidden sip of
-true superstardom, complete with surreal televised Cher duet, which would give
-him the confidence for his most experimental highs (Low, Earthling) and
-neuroticism for his most simpering lows (Tonight, Never Let Me Down).
+#+CAPTION: The early "Year of the Diamond Dogs" tour staging, complete with a recreation of "Hunger City". [1974]
+[[https://live.staticflickr.com/1648/24020287470_94db3f4501_b.jpg]]
 
+It was only during a one-month break in August, during which recording of 1975's /Young Americans/ began in Philadelphia, that metamorphosis fully ran its course and much of the band was replaced with dyed-in-the-wool soul musicians. Carlos Alomar was now on guitar, coming from the Apollo Theatre house band. The gospel-tinged backing vocals — which became gradually more prominent during the tour (the number of singers tripling) — were arranged by a young Luther Vandross. Songs to be on /Young Americans/ were folded into the set, purpose-designed for the new soul image. The shows themselves, for a time, continued to be a theatrical bonanza characteristic of glam excess — including giant hands spotted with light bulbs and temperamental motorised bridges (which tended to get stuck over the audience during /Moonage Daydream/). But by October, the chrysalis had completely burst open: the elaborate staging was scrapped, the band finalised with Dennis Davis on drums, and the tour rebranded as “The Soul Tour.” The new “Soul Man” persona was the true first in — and set the archetype for — a career defined by image makeovers. And it was he who was tasked with selling /Young Americans/ to the American public.
 
-It
-represents the complicated relationship Bowie would have between
+He clearly did something right. The title-track lead single reached 28 on Billboard, representing a breakthrough in the United States — becoming his second-highest charting single since /Space Oddity/. It was /Fame/ which became the No. 1, however. Christgau, having previously complained about Bowie’s dilettantism, changed his tune — calling the song “a real coup,” noting that “[James] Brown liked it so much that he quickly recorded /Hot (I Need to Be Loved)/ over the same riff.” Which I had no idea about (and sure enough, it is the same riff). The album generally received positive reviews — certainly much more positive than the live album — and did very well in the States. Bowie had made it.
 
-The mid 70s was awash with British artists flirting with such African-American
-influences to pretty woeful effect. An particularly illustrative example is Marc
-Bolan's T-Rex. Pertinent because Bolan, along with Bowie, was in many ways the
-godfather of the genre which influenced so much British music of the early
-1970s: Glam.
+Beyond sales, the album represented Bowie's first sip of true international stardom fully acquired on his own terms. This shaped his artistic expectations for the next two decades. In an alternate world where his forays into Americana failed, and the album flopped, I hardly think Bowie would have had the confidence to attempt similarly head-turning makeovers like 1997's D'n'B /Earthling/. Or even reject commercialism entirely with 1977's experimental/ambient/kraut trilogy of /Low/, /Heroes/, and /The Idiot/. From somebody who had been defined by the fairly insular British glam rock of the early '70s, /Young Americans/ proved to Bowie that he was an international force to whom no genres were off-limits. Instead, they were open to be stormed, plundered, and made to capitulate. And the public — well, it seemed at that time they were all too happy to go along. I find it remarkable that the follow-up to /Young Americans/, 1976's sleaze-funk /Station to Station/ — an album often billed as extremely dark, made in a haze of cocaine, self-mythology, yada yada yada — still went on to produce one of Bowie’s best-performing singles in the US: /Golden Years/, which reached number 10 and remained on the Hot 100 for 21 weeks. This can only have reinforced any newfound confidence.
 
+Aside from novel musical genres, 1976 also marked Bowie's first major foray into the medium of film. Director Nicolas Roeg had wanted Peter O'Toole to play the part of the alien in /The Man Who Fell to Earth/, but changed his mind after seeing the 1975 BBC documentary /Cracked Actor/, which depicts Bowie on tour in Los Angeles in full soul mode. The pop/film-star combo was long established as the most effective way into the hearts and minds of the masses — pretty much from the talkie's inception with 1927's /The Jazz Singer/ — but of course reaching its peak with the likes of Sinatra, Elvis, and The Beatles. Now, I acknowledge that /The Man Who Fell to Earth/ isn't exactly like /A Hard Day’s Night/ or /Purple Rain/, but the point is that Bowie had achieved the calibre of celebrity where such a mould began to fit. He had opened the Grammys, had a duet with Cher, was constantly on women’s talk shows and doing interviews. Bowie at this point was going through the same motions as a Barry Manilow or David Cassidy, though with an admittedly preformative air.
 
-and in '74 a bigger star than Bowie, had seen their own
-dalliances with the ridiculously titled /Zinc Alloy and the Hidden Riders of
-Tomorrow/, torpedo their chart prospects.
+#+CAPTION: David Bowie dueting with Cher on her TV show. [1975]
+https://i.redd.it/s72cibykr8q81.jpg
 
+In all these ways, the /Young Americans/ period acted as a sort of dry run for 1983's /Let's Dance/. Even if he temporarily rejected it — or was at least more ambivalent — from 1977–80, the memory of American-scale celebrity lingered and informed his actions throughout /Let's Dance/'s inception. There was a similar, though poppier, “Americanised” genre whiplash (hello Nile Rodgers), two new films (/Merry Christmas Mr. Lawrence/ and /The Hunger/ — the former great, the latter less so), and TV appearances galore. The album was a huge success, selling over 10 million copies, spawning Bowie’s second and last US number one with the title track, as well as two more million-sellers with /China Girl/ and /Modern Love/. Combined with the 96-show sellout Serious Moonlight tour, it was a uniquely busy year — and yet one with parallels to 1975. You can see why Carol Cooper of Record magazine called /Let's Dance/ the “Young Americans of the ’80s.”
 
-album is an entertaining if baffling soul
-reinterpretation of Bolan's boogie-glam formula.
+#+CAPTION: Bowie on his Serious Moonlight tour in Edmonton, Canada. [1983]
+https://npr.brightspotcdn.com/b5/b5/a3d5ec5d48b692d14a7f8db73340/david-bowie-serious-moonlight.png
 
-
-Self-produced, self-indulgent
-and self-destructive, Marc named his new pioneering style "Interstellar
-Supersoul" - which apparently consisted of layering each syncopated stab of
-guitar with a veritable orchestra, and especially maniacal songwriting. His wife
-Gloria Jones, who recorded the original /Tainted Love/, is about the only American
-on the record. Maybe interstellar supersoul sees no borders, but it would appear
-the public disagreed. Bolan bombed like all such British dilettantes of the
-period: Elton John, George Harrison, the list goes on.
-
-Bowie in contrast, and almost uniquely, went all in: the look, the songs, the
-band, everything. The change in look was sudden: in late 1974, Lurid overalls
-and anti-establishment hairdo switched overnight to white polyester suits and
-slick side-parted coiffure. The musical change was more gradual. In 1973's
-/Aladdin Sane/, while looked exactly like Ziggy, Americana was seeping in. The
-album was jazzier, bluesier and doo-wopier than its self-consciously English
-predecessor. For now, these were genres British artists had been trading in for
-years, and was buying into the /New York Dolls/, /Lou Reed/ form of glam more than
-daring genre mixing.
-
-While the following /Diamond Dogs/ album has definite soul influences in the form
-of shaft-style wah, electric pianos, and crooning vocals - it too remained
-fundamentally a glam project. Its has striking similarities to /Zinc Alloy/: newly
-self-produced, certainly self-indulgent, Bowie risked dabbling. Like Bolan's
-effort, I have a misguided appreciation for how schizophrenic it is, but it's
-obvious why sales-wise it was a step down from the more focused /Aladdin Sane/.
-Funky cuts like /1984/ feel questionable in a Bolan kind of way, and
-correspondingly sank commercially. Contrastingly, the elements which retained an
-unalloyed glam feel, like the immortal centrepiece, /Rebel Rebel/, were big hits.
-
-Bowie's nerve held, however. Ziggy may have "Gone to America" in '73, but it
-wasn't until late '74 David Jones truly followed. The full move only really took
-place during the /Diamond Dogs/ tour. The first leg in July already had the new
-look, and the songs had a new plastic sheen over them, though they were still
-played by the original Diamond Dogs band. Quite a band, with names like Herbie
-Flowers on Bass and Earl Slick on guitar, but hardly genre authentic.
-
-During a one month break in August, during which began recording of 1975's /Young
-Americans/ in Philadelphia, the metamorphosis continued and much of the band was
-replaced with dyed-in-the-wool soul musicians. Carlos Alomar was now on guitar,
-coming from the Apollo Theatre house band. The gospel-tinged backing vocals,
-which became gradually more prominent during the tour (the number of singers
-tripling), were arranged by a young Luther Vandross. Songs to be on /Young
-Americans/ were folded into the set, purpose-designed for the new soul image, as
-opposed to the awkwardly funked-up adaptations of previous hits.
-
-The shows themselves, for a time, continued to be a theatrical bonanza
-characteristic of glam excess - including giant hands bespectacled with
-light-bulbs and temperamental motorised bridges (Bowie tended to get stuck over
-the audience while singing Moonage Daydream). By October however, the chrysalis
-had completely burst open: the elaborate staging was scrapped, the band
-finalised (Dennis Davis now on drums) and the tour re-branded as "The Soul Tour."
-This new "Soul Man" persona was the true first in, and set the archetype for, a
-career defined by image makeovers.
-
-While nowadays I think most people look back on this particular transition as
-positive in the long run, if only for incubating the critically adored /Station
-to Station/ from 1976. Its fair to say that musically, the first result of /Young
-Americans/ remains slightly more divisive. For me on the other hand, despite its
-admittedly patchy track listing and preponderance of sax, /Young Americans/ may
-just be my most played Bowie record. While its quality as an album is easily
-surpassed, there are tons of elements and individual tracks which feel
-incredibly unique, and subsequently unexplored by almost anybody. You can find a
-million Ziggy-worshipping bands of the post-punk school in the late 70s/early
-80s, but I can't think of anything else quite like this.
-
-The title track immediately introduces the sleek, mid-tempo groove that
-permeates much of the album. The vocals the breathy, strained and oh-so-
-plastic, but combined with those fantastic backing singers the effect becomes
-something quite inimitable. 'Win' slows it down, verses lapping like water on a
-lake before the great swell of the chorus: brilliant. 'Fascination' is a funky
-clavinet based torrent (we like our pained water metaphors) which is just
-made by those backing vocalists. The following track 'Right' is probably my
-favourite on the album and feels like a sister to fascination: it brings back
-some atmosphere through a persistent tension which is never quite released.
-
-The album admittedly is objectively boring or terrible at times, "Across the
-Universe" is a low point and is yet more proof Bowie's strong point is not
-covers. "Somebody Up There Likes Me" feels forced and "Can You Hear Me" is a bit
-of a dud (the ending is cool though). They both fall into the trap all soul
-risks: Feeling a bit overproduced and saccharine: lacking distinctiveness. I
-think these solecisms are made up for by "Fame" which was the American hit. More
-Lennon influence on this one: he contributed guitar, backing vocals, and helped
-with the writing (by apparently reversing a middle-8 by Stevie Wonder). Its the
-opposite of nondescript, and probably the funkiest track on the record. Driven
-by a great big fat distorted guitar lick, it seems to prefigure some of the
-darker elements of the following, much less commercial, Station to Station.
-
-That figure we both respect and tut-tut for his endless quest for the hip, and I
-mean /hip/ in the most grandiloquent sense, was fully born not in Brixton but
-Philadelphia; the product of his successful re-baptism into the church of
-blue-eyed - or, to put it with suitable pretension, heterochromatic-eyed soul.
-The congregation accepted him with open arms and platinum sales. While his peers
-were falling by the wayside, /Young Americans/ spawned his first US No. 1, secured
-him as one of the first white artists featured on Soul Train, and stood as his
-best-selling album to date. It was this first forbidden sip of true
-superstardom, complete with surreal televised Cher duet, which would give him
-the confidence for his most experimental highs (Low, Earthling) and neuroticism
-for his most simpering lows (Tonight, Never Let Me Down).
-
-All that is to say, its an important album and slightly overlooked. Without
-context, it seems to lack the aesthetic daring of his more ostentatious periods,
-but there are loads of elements and individual tracks here which feel incredibly
-unique and subsequently unexplored by almost anybody. You can find a million
-Ziggy-worshipping bands of the post-punk school in the late 70s/early 80s, but I
-can't think of anything quite like Bowie's approach to soul. I think it's just
-great!
+The difference this time around was that, instead of making another Berlin trilogy, Bowie didn’t know when to stop. Things already started going off-course with the follow-up, 1984's /Tonight/. While the lead single, /Blue Jean/, was a moderate success — reaching No. 8 — the slightly embarrassing 30-minute music video showed that Bowie wanted Thriller-like numbers. Things got worse from there as Bowie got ever more desperate — with goblin films and duets with Jagger and the like — but I digress. My point is that underlying this behaviour was the perception that truly popular adulation was even a possibility. /Let's Dance/ may have represented this inimitable model throughout the '80s, but without /Young Americans/, there would have been no /Let’s Dance/. And without /Let’s Dance/, there would be no /Earthling/ — and a world without that 1997 rock/pop/electronic mashup would be a pretty pointless one. For that reason alone, /Young Americans/ stands as Bowie’s most important record: the one where he proved he could survive anything — even being a pop star.
