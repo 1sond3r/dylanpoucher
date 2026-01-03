@@ -1,0 +1,72 @@
+
+#+TITLE: David Bowie's "Young Americans"
+#+SUBTITLE: His most important album
+#+TAGS: Culture
+#+DATE: 29-07-25
+#+CONVERT: yes
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/>
+#+HTML_HEAD: <div class="navbar"><a href="index.html">Home</a> | <a href="about.html">About</a></div> <div class ="box"></box>
+
+#+OPTIONS: html-postamble:<p>Published on <span class="post-footer-date">DATE_HERE</span> by <span class="post-footer-name">Dylan</span></p>
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+HTML_HEAD_EXTRA: <style>  img { max-width: 100%; height: auto; } </style>
+
+* Explaining Zollman
+: Explain zollman, bayseanism, beta-binomeal
+Every round, each agent runs a series of experiments. They are testing to see if the theory B is better than the theory A. Theory here may be the wrong word in Zollman's model, think of them more like techniques. In using a technique, I am simultaneously relying on it while also testing its efficacy. Techniques are also not mutually exclusive to eachother. So, there is a group of agents all using either technique A or B. Technique A has a known success rate, 0.5. I.E, my credence in technique A having a success rate of 0.5 is 1. Technique B has an unknown success rate, or rather, if it works, technique B promises a success rate of 0.6. But each agent is not entirely sure about this (I randomly distribute credences at the start). Experiments need to be run in order to determine if this is the true success rate.
+
+Each agent essentually wants to maximise utility: they will use the technique they consider to be the most efficacious. So, if I have a credence of 1 that the rate of A is 0.5, and a credence of 1 that the rate of B is 0.6, I will chose to use B. What is the threshold, though? When should I switch from B to A?
+
+My utility of using B given that B is true is (0.6×1)+(0.4×0) = 0.6. This assumes that the "drawback" of failure is nothing (Bala and Goyal). Zollman also states that my utility of using B given that B is false is =(0.4×1)+(0.6×0) = 0.4. This essentually means that I am trying to determine if the success rate of B is 0.6 or 0.4. Thus, my expected utility of testing B given my credence C in B is C×0.6 + (1-C)×0.4. I test B when my expected utility of B is higher than my expected utility of A. My expected utility of A is (0.5×1)+(0.5×0) = 0.5. So, C×0.6 + (1-C)×0.4 needs to be greater than 0.5. Solving this for C, you get that C > 0.5. Bascially, my expected utility just is my credence in B.
+
+The goal of the agents is
+
+Every round, each agent who believes B runs some trials to test $B$ and gain evidence.
+$P(B_{\text{new}} \mid E) = \frac{\Pr(E \mid B) \times \Pr(B_{\text{old}})}{\Pr(E)}$
+And:
+$\Pr(E \mid B) = \Pr(\text{Success} \mid B)^{N_{\text{success}}} \times \Pr(\text{Failure} \mid B)^{N_{\text{failure}}}$
+We know $\Pr(B_{\text{old}})$, 'tis just our credence!
+
+$\Pr(E)$ we calculate from total probability:
+$\Pr(E) = \Pr(E \mid B) \times \Pr(B_\text{old}) + \Pr(E \mid \neg B) \times \Pr(\neg B_\text{old})$
+$\text{Pr}(\neg B_{old}) = 1 - \text{Pr}(B_{old})$
+
+$\Pr(E \mid \neg B) = (\Pr(\text{Success} \mid \neg{B}))^{N_{\text{success}}} \times (\Pr(\text{Failure} \mid \neg{B}))^{N_{\text{failure}}}$
+Where, Pr(Success|¬B) = 0.4
+
+Each agent has all this information!
+
+This is the standard baysean way of doing things. But we can also do a beta-binomial. Our EU of B will simply be, because of Bala Goyal where probability JUST IS expected utility, Successes/Total Trials. Obviously so, because if we were to flip a coin 100 times and 50 times of those 100 it landed heads, we would be rationally bound to say the Pr(H) = 50/100 = 1/2. Finite frequentest conception of probability. I suppose this isn't really what scientists do, but its what medics do. I think that a lot of these ABMs are really good for that kind of information.
+
+So, in this case, our EU for B simply becomes (a/a+b). If (a/a+b) < 0.5, we stop testing B.
+
+* Expanding to Multi-Armed Bandit
+: Explain multi armed bandit and give example
+
+We can expand this to a multi-armed bandit quite easily. We now just add more theories, each with different rates of success. We gather data on them in much the same way as we did with theory B, except, there is now no "given" theory. Each will just have the credence as calculated by the Beta binomial. Each agent simply uses the theory they have the most credence in.
+
+This has some amusing effects. We occasionally get rapid changes between different theories, which sort of looks like a paradigm shift. This happens when a bad theory gets lucky at the start, and becomes ubiquitous. It may be, however, that one or more agent's next best theory is superior to this theory. If the ubiquitous theory proves itself to be inferior to the credence the agent has in that theory, they will switch. This starts broadcasting information to the rest of the community about the theory. Since it is in fact superior, it eventually creates a cascade. I have seen this happen up to three times in a run! It is almost Kuhnian!
+
+** Risk takers and Risk Aversion
+: Explain my own model, interpret the results
+
+My model is a variation on the multi-armed bandit as described above. After some experimentation with different ideas (In group/outgroup biasing, looking at only the best two theories, etc) I found the results of this model the most interesting.
+
+The idea sort of came from the "Division of Cognative Labour" idea. That is, the concept that it is epistemically advantageous for the community for different agents to have different priorities to eachother. There was a model relased in 2009, based on the "epistemic landscapes" modelling paradigm, which tried to show how a group of "mavericks" who deliberately avoided agents following nearby theories, added to a group of "followers" and "climbers", systematically improved group performance. Now, this specific result was refuted in 2015 because of a humiliating programming error, but I think the idea remains intriguing.
+
+I want you to cast your mind back to the beta binomeal distribution. This distribution not only has a mean associated with it, but a varience, calculated by (with use of gamma distribution magic)
+
+$$\frac{\alpha\beta}{(\alpha+\beta+1)(\alpha+\beta)^2}$$
+
+I take the varience in this model to correlate to something along the lines of "the uncertainty in my confidence of this theory." It seems intuitive to me, that within a given community of scientists, there are going to be differences of temperament when it comes to this value. Some (including probably me) will be averse to using a theory with a high varience (in some cases, this may actually be beneficial, as I will be exploring later). After all, it may turn out to be a bad theory. In which case, you have wasted time using a bad theory when you could be using another. Others may be more optimistic and have exactly the opposite reaction: maybe its a good theory, and so we should test it! My ABM seeks to model how homogeneous and heterogeneous communities consisting of these agents fare against eachother and purely rational agents.
+
+In my model, there are three types of agents. The risk taking, the risk averse, and typical rational. There is one parameter which controls all these agents' behaviour, $\lambda$. The preference ordering, which was previously just the mean of each distribution, is now weighted according to variance and the value of  $\lambda$. That is:
+
+$T_{score} = T_{mean} \times (1 - \lambda \times 4\sigma^2$)
+
+The 4 is there just to scale the varience to lie between 0 and 1, not 0 and 0.25.
+
+With this setup, positive $\lambda$ makes the agents risk averse. They will weight higher means with high varience lower. Negative $\lambda$ does the opposite, and makes agents weigh means with high variance higher.
+
+This produces some pretty fascinating results. Communities consisting solely of risk seeking agents tend to do better in the long run than purely rational agents, but worse in the short term. Communities consisting of risk averse agents can, in some conditions, actually do better in the short term than their purely rational rivals, but tend to do far worse in the long term. The most interesting setup of all is the combination of the two. A community consisting of a majority of risk averse (or rational) agents, plus a small minority of risk takers, basically combines the best of both worlds. The long term result is almost as good as a fully risk-taking community (thus, better than the rational agents), while mitigating some of the early drawbacks. The rick averse are essentually able to step away and "piggyback" off the results of the risk-takers. Fascinatingly, this is done at the expense of the risk takers themselves. The risk averse settle on the best theory much earlier than the risk takers.

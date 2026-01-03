@@ -60,7 +60,7 @@ unset IFS
 for post in "${sorted_posts[@]}"; do
     IFS='|' read -r timestamp pdate filename title subtitle tags convert<<< "$post"
 
-    [[ "$filename" == "about" ]] && continue
+    [[ "$filename" == "" ]] && continue
     [[ "$convert" != "yes" ]] && continue
 
     cat >> "$OUTPUT_DIR/index.html" <<EOL

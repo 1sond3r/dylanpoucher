@@ -4,13 +4,11 @@
 #+HTML_HEAD: <div class="navbar"><a href="index.html">Home</a> | <a href="about.html">About</a></div>
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
+#+CONVERT: yes
 
 #+HTML: <div style="text-align: center;">
 #+ATTR_HTML: :width 300px
 [[file:me.png]]
-#+HTML: </div>
-
-
 I am a cool dude, that's for damn sure. I’m a first-year philosophy
 undergraduate at LSE, having previously spent a year studying physics at
 Imperial—before realizing it wasn’t the cosmic odyssey Brian Cox
@@ -25,7 +23,6 @@ important to me. Now, I’m at LSE, studying the garrulously titled Philosophy,
 Logic, and Scientific Method course. I have no concrete goals beyond a likely
 persuit of a masters in Philosophy before maybe, just maybe, working in the civil
 service and leading a life vaguely reminiscent of Rory Stewart's.
-#+HTML: <div style="text-align: center;">
 * Links
 [[https://www.linkedin.com/in/dylan-poucher-3a0303332/][Linkedin]] -
 [[https://github.com/1sond3r][Github]] -
