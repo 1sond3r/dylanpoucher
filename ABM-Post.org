@@ -1,4 +1,4 @@
-
+yyyyyyy
 #+TITLE: David Bowie's "Young Americans"
 #+SUBTITLE: His most important album
 #+TAGS: Culture
@@ -13,33 +13,41 @@
 #+HTML_HEAD_EXTRA: <style>  img { max-width: 100%; height: auto; } </style>
 
 * Explaining Zollman
-: Explain zollman, bayseanism, beta-binomeal
-Every round, each agent runs a series of experiments. They are testing to see if the theory B is better than the theory A. Theory here may be the wrong word in Zollman's model, think of them more like techniques. In using a technique, I am simultaneously relying on it while also testing its efficacy. Techniques are also not mutually exclusive to eachother. So, there is a group of agents all using either technique A or B. Technique A has a known success rate, 0.5. I.E, my credence in technique A having a success rate of 0.5 is 1. Technique B has an unknown success rate, or rather, if it works, technique B promises a success rate of 0.6. But each agent is not entirely sure about this (I randomly distribute credences at the start). Experiments need to be run in order to determine if this is the true success rate.
+It begins like this:
 
-Each agent essentually wants to maximise utility: they will use the technique they consider to be the most efficacious. So, if I have a credence of 1 that the rate of A is 0.5, and a credence of 1 that the rate of B is 0.6, I will chose to use B. What is the threshold, though? When should I switch from B to A?
+Every round, each agent runs a series of experiments. The goal is to see if the theory B is better than theory A. Theory here is a slight misnomer, think of them more like techniques - like methods of surgery. In performing an experiment, an agent is simultaneously relying on it while also testing its efficacy. In this sense, the agents are not pure truth seekers but rather utility maximisers in an environment where we assume utility corresponds with truth. This is the Bala-Goyal model.
 
-My utility of using B given that B is true is (0.6×1)+(0.4×0) = 0.6. This assumes that the "drawback" of failure is nothing (Bala and Goyal). Zollman also states that my utility of using B given that B is false is =(0.4×1)+(0.6×0) = 0.4. This essentually means that I am trying to determine if the success rate of B is 0.6 or 0.4. Thus, my expected utility of testing B given my credence C in B is C×0.6 + (1-C)×0.4. I test B when my expected utility of B is higher than my expected utility of A. My expected utility of A is (0.5×1)+(0.5×0) = 0.5. So, C×0.6 + (1-C)×0.4 needs to be greater than 0.5. Solving this for C, you get that C > 0.5. Bascially, my expected utility just is my credence in B.
+The agents determine the expected value using the mean of the beta-binomial distribution. This has some technicalities surrounding it, which we'll utilise later, but the mean for now can be described quite intuitively.
 
-The goal of the agents is
+If we tossed some object like a weighted die 100 times, and 40 out of those 100 times it landed on 6 - what probability should we rationally ascribe to it landing 6 again? It appears it should just be the total number of occurrent 6s divided by the total number of trials. I.E, 40/100, which is equal to 0.4. The same logic applies to the beta-binomeal mean: for each agent, the expected value of each theory $T$ is equal to $\hat{\mu}_T = \frac{\alpha_T}{\alpha_T + \beta_T}$. Where $\alpha_T$ is the total number of successes produced by a theory, and $\beta_T$ the total number of failures elicited by the same theory. Well, to be more accurate, to prevent a division by zero at the beginning of the simulation, we randomly assign pre-experimental alpha and beta priors to all agents. These act as "phantom trials."
 
-Every round, each agent who believes B runs some trials to test $B$ and gain evidence.
-$P(B_{\text{new}} \mid E) = \frac{\Pr(E \mid B) \times \Pr(B_{\text{old}})}{\Pr(E)}$
-And:
-$\Pr(E \mid B) = \Pr(\text{Success} \mid B)^{N_{\text{success}}} \times \Pr(\text{Failure} \mid B)^{N_{\text{failure}}}$
-We know $\Pr(B_{\text{old}})$, 'tis just our credence!
+Technique A has a success rate known to the agents (0.5), while technique B has a success rate they must determine (0.6). We model our agents as "greedy." That is, they test the theory they determine to have the highest expected value based off past experiments. Agents don't merely see the results of their own experiments however: they also share their results with neighbours over a network. The topology of this network can vary in multitudinous and exciting ways - and is the principal object of study by Zollman in his paper "The Communication Structure of Epistemic Communities" (2007). His key finding, and what appears to be the key finding of the entire field, is that less connected networks counter-intuitively converge upon the best theory more regularly than highly connected networks.
 
-$\Pr(E)$ we calculate from total probability:
-$\Pr(E) = \Pr(E \mid B) \times \Pr(B_\text{old}) + \Pr(E \mid \neg B) \times \Pr(\neg B_\text{old})$
-$\text{Pr}(\neg B_{old}) = 1 - \text{Pr}(B_{old})$
+Here are some examples of different network topologies (from Wikipedia):
 
-$\Pr(E \mid \neg B) = (\Pr(\text{Success} \mid \neg{B}))^{N_{\text{success}}} \times (\Pr(\text{Failure} \mid \neg{B}))^{N_{\text{failure}}}$
-Where, Pr(Success|¬B) = 0.4
+#+CAPTION: A Complete graph. Every node is connected to every other node.
+#+attr_html: :width 50%;
+https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Complete_graph_K5.svg/2304px-Complete_graph_K5.svg.png
 
-Each agent has all this information!
+Information spreads quickly in highly connected networks: if theory B fails for somebody, lots of people hear about it. Conversely, networks represented by graphs like the cycle have much less communication, each agent having much fewer neighbours.
 
-This is the standard baysean way of doing things. But we can also do a beta-binomial. Our EU of B will simply be, because of Bala Goyal where probability JUST IS expected utility, Successes/Total Trials. Obviously so, because if we were to flip a coin 100 times and 50 times of those 100 it landed heads, we would be rationally bound to say the Pr(H) = 50/100 = 1/2. Finite frequentest conception of probability. I suppose this isn't really what scientists do, but its what medics do. I think that a lot of these ABMs are really good for that kind of information.
+#+CAPTION: A Cycle graph. Every node is connected to exactly two other nodes.
+#+attr_html: :width 50%;
+https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Circle_graph_C5.svg/1142px-Circle_graph_C5.svg.png
 
-So, in this case, our EU for B simply becomes (a/a+b). If (a/a+b) < 0.5, we stop testing B.
+One might reasonably expect that more communication, and thus using complete graphs in our model, is effective for knowledge gathering. However, embed the logic we have been discussing in a python simulation and something rather interesting occurs:
+
+#+attr_html: :width 100%;
+[[file:///./Zollman_Complete_Fail.png ]]
+
+
+
+
+
+
+
+This has advantages and disadvantages. If B is an obviously superior theory, all agents learn about its successes rapidly and switch from poor theories early. Conversely if B is only marginally better than the alternative
+
 
 * Expanding to Multi-Armed Bandit
 : Explain multi armed bandit and give example
@@ -51,22 +59,24 @@ This has some amusing effects. We occasionally get rapid changes between differe
 ** Risk takers and Risk Aversion
 : Explain my own model, interpret the results
 
-My model is a variation on the multi-armed bandit as described above. After some experimentation with different ideas (In group/outgroup biasing, looking at only the best two theories, etc) I found the results of this model the most interesting.
+My model is a variation on the multi-armed bandit as described above. After some experimentation with different ideas (in group/out-group biasing, bounded rationality, etc) I found the results of this model the most interesting.
 
 The idea sort of came from the "Division of Cognative Labour" idea. That is, the concept that it is epistemically advantageous for the community for different agents to have different priorities to eachother. There was a model relased in 2009, based on the "epistemic landscapes" modelling paradigm, which tried to show how a group of "mavericks" who deliberately avoided agents following nearby theories, added to a group of "followers" and "climbers", systematically improved group performance. Now, this specific result was refuted in 2015 because of a humiliating programming error, but I think the idea remains intriguing.
 
 I want you to cast your mind back to the beta binomeal distribution. This distribution not only has a mean associated with it, but a varience, calculated by (with use of gamma distribution magic)
 
-$$\frac{\alpha\beta}{(\alpha+\beta+1)(\alpha+\beta)^2}$$
+$$\hat{\mu}_T = \frac{\alpha}{\alpha + \beta}$$
 
-I take the varience in this model to correlate to something along the lines of "the uncertainty in my confidence of this theory." It seems intuitive to me, that within a given community of scientists, there are going to be differences of temperament when it comes to this value. Some (including probably me) will be averse to using a theory with a high varience (in some cases, this may actually be beneficial, as I will be exploring later). After all, it may turn out to be a bad theory. In which case, you have wasted time using a bad theory when you could be using another. Others may be more optimistic and have exactly the opposite reaction: maybe its a good theory, and so we should test it! My ABM seeks to model how homogeneous and heterogeneous communities consisting of these agents fare against eachother and purely rational agents.
+$$ \sigma^{2}_{T} = \frac{\alpha\beta}{(\alpha+\beta+1)(\alpha+\beta)^2}$$
 
-In my model, there are three types of agents. The risk taking, the risk averse, and typical rational. There is one parameter which controls all these agents' behaviour, $\lambda$. The preference ordering, which was previously just the mean of each distribution, is now weighted according to variance and the value of  $\lambda$. That is:
+I take the varience in this model to correlate to something along the lines of "the uncertainty in my confidence of this theory." It seems intuitive, that within a given community of scientists, there are going to be differences of temperament when it comes to this kind of uncertainty. Some - and I include myself in this category - will be averse to using a theory with a high varience. After all, it may turn out to be a bad theory. In which case, you have wasted time using a bad theory when you could be using another. (in some cases, this may actually be beneficial, as I will be exploring later) Others may be more optimistic and have exactly the opposite reaction: maybe its a good theory, and so we should test it! My ABM seeks to model how homogeneous and heterogeneous communities consisting of these agents fare against eachother and purely rational agents.
 
-$T_{score} = T_{mean} \times (1 - \lambda \times 4\sigma^2$)
+In my model, there are three types of character. The risk taking, the risk averse, and normal rational agent we met earlier. There is one parameter which controls all these agents' behaviour, $\lambda$. The preference ordering, which was previously just the mean of each distribution, is now weighted according to variance and the value of  $\lambda$. That is:
 
-The 4 is there just to scale the varience to lie between 0 and 1, not 0 and 0.25.
+$$U_{T} = \hat{\mu}_T \times (1 - \lambda \times 4\sigma^{2}_T)$$
 
-With this setup, positive $\lambda$ makes the agents risk averse. They will weight higher means with high varience lower. Negative $\lambda$ does the opposite, and makes agents weigh means with high variance higher.
+(The 4 is there just to scale the varience to lie between 0 and 1, not 0 and 0.25.)
+
+With this setup, positive $\lambda$ makes the agents risk averse. They will weight means with high varience lower. This makes them "exploiters." Negative $\lambda$ does the opposite, and makes agents weigh means with high variance higher. This makes them "explorers" and means that they may pick theories with low means just because they are underexplored.
 
 This produces some pretty fascinating results. Communities consisting solely of risk seeking agents tend to do better in the long run than purely rational agents, but worse in the short term. Communities consisting of risk averse agents can, in some conditions, actually do better in the short term than their purely rational rivals, but tend to do far worse in the long term. The most interesting setup of all is the combination of the two. A community consisting of a majority of risk averse (or rational) agents, plus a small minority of risk takers, basically combines the best of both worlds. The long term result is almost as good as a fully risk-taking community (thus, better than the rational agents), while mitigating some of the early drawbacks. The rick averse are essentually able to step away and "piggyback" off the results of the risk-takers. Fascinatingly, this is done at the expense of the risk takers themselves. The risk averse settle on the best theory much earlier than the risk takers.
