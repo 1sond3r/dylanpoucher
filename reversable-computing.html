@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-01-05 Mon 14:32 -->
+<!-- 2026-01-05 Mon 15:03 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Reversable Computing</title>
@@ -206,14 +206,14 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org3547e85">1. Intro</a></li>
-<li><a href="#orgc23de05">2. The Idea</a></li>
-<li><a href="#org6a473a8">3. Fuck</a></li>
+<li><a href="#orgaa3b8fa">1. Intro</a></li>
+<li><a href="#org082a6f1">2. The Idea</a></li>
+<li><a href="#org90491d6">3. Fuck</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3547e85" class="outline-2">
-<h2 id="org3547e85"><span class="section-number-2">1.</span> Intro</h2>
+<div id="outline-container-orgaa3b8fa" class="outline-2">
+<h2 id="orgaa3b8fa"><span class="section-number-2">1.</span> Intro</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 I was reminded of an interesting concept a few days ago called reversible computation. I think I first heard about it years ago when I was going though a period of enormous concern about the heat death of the universe: the prospect that in the far far future entropy throughout the universe will have increased to such an extent that there are no temperature gradients, thus no work, thus no computation, and since computation is presumably necessary for conscious life there is no possibility of anyone or anything being around to comment on the dark black inky blankness.
@@ -228,8 +228,8 @@ Well this phrase "reversible computing" continued to knock around in my head for
 </p>
 </div>
 </div>
-<div id="outline-container-orgc23de05" class="outline-2">
-<h2 id="orgc23de05"><span class="section-number-2">2.</span> The Idea</h2>
+<div id="outline-container-org082a6f1" class="outline-2">
+<h2 id="org082a6f1"><span class="section-number-2">2.</span> The Idea</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Classical computation is not information-preserving. Obviously, a typical computer clears registers to make space for more information, etc. In fact, any system which can be represented by a many-to-one function does not preserve information - and the nature of typical logic gates are many-to-one. In an OR gate three of the four unique inputs are assigned a high output, given knowledge just of the high output we could not know which input it corresponded to. We can see then how this information loss makes the computation irreversible, and the irreversibly is enormously compounded by combining these gates together, say to make an adder. On an abstract level, we can see how simple two figure addition is already many to one: given the output "8" I can already permute "1 + 7", "2 + 6", "3 + 5", etc as possible inputs.
@@ -252,8 +252,8 @@ Contrast the ideal gas scenario to the famously bitchy naiver-stokes equations d
 </p>
 </div>
 </div>
-<div id="outline-container-org6a473a8" class="outline-2">
-<h2 id="org6a473a8"><span class="section-number-2">3.</span> Fuck</h2>
+<div id="outline-container-org90491d6" class="outline-2">
+<h2 id="org90491d6"><span class="section-number-2">3.</span> Fuck</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 Basically though, entropy tends to go up in a closed system: our models tend to become simpler. This is bad news for life though because models becoming simpler eventually means that nothing complex happens like life and consciousness and other cool shit! This goes for any system we want to run forever: entropy needs to not increase. Thus, if we want a computer to run forever, it needs to operate in a closed system which entropy does not increase: I.E: the system behaves exactly like a model. How the fuck do we do that? By preserving all information within the system! Information here then becomes a sort of interface between models of different granularity, information "loss" is the disparity of behaviour between higher and lower grained models. We need to create a computational system which is so well understood and modelled that there is no disparity between it and reality (I.E: a perfect model of the universe). Information erasure within a model of computing necessitates a disparity between the model of computation and reality: where the information "goes" is unaccounted for and sorted out by some other physical models. Thus, for a model of computation to have zero entropy increase it necessarily must preserve information and hence be reversible. This is all summed up in Landauer’s Principle which basically stipulates there will always be an energy cost associated with erasing bits but not necessarily in propagating them.
