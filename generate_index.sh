@@ -21,9 +21,17 @@ cat > "$OUTPUT_DIR/index.html" <<'EOL'
     <a href="index.html">Home</a> | <a href="about.html">About</a>
 </div>
 <h1 class="rainbow-title">Dylan's Blog</h1>
-
 <div class ="box"></box>
-<div id="active-filters"><strong>  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  </strong></div>
+
+<div align="center" style="position: relative; top: 20px; margin-bottom: -10px;">
+    <a href='https://www.counter12.com'>
+        <img src='https://www.counter12.com/img-Aw9y22ZZbYdwd50w-24.gif' border='0' alt='web counter free'>
+    </a>
+    <script type='text/javascript' src='https://www.counter12.com/ad.js?id=Aw9y22ZZbYdwd50w'></script>
+</div>
+
+<div style="height: 0px;"></div>
+
 <ul>
 EOL
 
@@ -64,7 +72,7 @@ for post in "${sorted_posts[@]}"; do
     [[ "$convert" != "yes" ]] && continue
 
     cat >> "$OUTPUT_DIR/index.html" <<EOL
-    <li class="post-item" data-tags="$tags">
+    <li class="post-item">
         <a href="$filename.html" class="post-link">
             <strong class="post-title">$title</strong>
             <span class="post-date">($pdate)</span><br>
@@ -73,20 +81,21 @@ for post in "${sorted_posts[@]}"; do
         <div class="post-tags">
 EOL
     for tag in $tags; do
-        echo "            <span class='tag' onclick=\"toggleFilter('$tag')\">$tag</span>" >> "$OUTPUT_DIR/index.html"
+        # Kept the span, removed the onclick
+        echo "            <span class='tag'>$tag</span>" >> "$OUTPUT_DIR/index.html"
     done
 
     echo "        </div>" >> "$OUTPUT_DIR/index.html"
     echo "    </li>" >> "$OUTPUT_DIR/index.html"
 done
 
-# JavaScript (corrected and checked carefully!)
+# JavaScript: Restored COLOR logic, removed FILTER logic
 cat >> "$OUTPUT_DIR/index.html" <<'EOL'
 </ul>
-<div class="footer">© Dylan 2026. Written in Emacs Orgmode because I am the man, man.</div>
-<script>
-let activeFilters = new Set();
 
+<div class="footer">© Dylan 2026. Written in Emacs Orgmode because I am the man, man.</div>
+
+<script>
 let tagColors = new Map();
 
 const colorPalette = [
@@ -113,46 +122,12 @@ function getTagColor(tag) {
     return tagColors.get(tag);
 }
 
-
-function updateFilters() {
-    const posts = document.querySelectorAll('.post-item');
-    const activeFilterContainer = document.getElementById('active-filters');
-
-    if (activeFilters.size === 0) {
-        posts.forEach(post => post.style.display = 'block');
-        activeFilterContainer.innerHTML = '<strong>    ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎    </strong>';
-        return;
-    }
-
-    posts.forEach(post => {
-        const postTags = post.dataset.tags.split(' ');
-        post.style.display = [...activeFilters].some(tag => postTags.includes(tag)) ? 'block' : 'none';
-    });
-
-    activeFilterContainer.innerHTML = '<strong> Filters: </strong>';
-    activeFilters.forEach(tag => {
-        const tagElement = document.createElement('span');
-        tagElement.className = 'tag active-filter';
-        tagElement.innerText = tag;
-        tagElement.style.backgroundColor = getTagColor(tag);
-        tagElement.style.color = '#fff';
-        tagElement.onclick = () => toggleFilter(tag);
-        activeFilterContainer.appendChild(tagElement);
-    });
-}
-
-function toggleFilter(tag) {
-    if (activeFilters.has(tag)) activeFilters.delete(tag);
-    else activeFilters.add(tag);
-    updateFilters();
-}
-
 document.addEventListener('DOMContentLoaded', () => {
+    // Just color the tags, no filtering listeners
     document.querySelectorAll('.post-tags .tag').forEach(tagElement => {
         const tagText = tagElement.innerText.trim();
         tagElement.style.backgroundColor = getTagColor(tagText);
         tagElement.style.color = '#fff';
-        tagElement.onclick = () => toggleFilter(tagText);
     });
 });
 </script>
