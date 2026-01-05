@@ -23,7 +23,7 @@ cat > "$OUTPUT_DIR/index.html" <<'EOL'
 <h1 class="rainbow-title">Dylan's Blog</h1>
 <div class ="box"></box>
 
-<div align="center" style="position: relative; top: 20px; margin-bottom: -10px;">
+<div align="left" style="position: relative; top: 20px; margin-bottom: -20px;">
     <a href='https://www.counter12.com'>
         <img src='https://www.counter12.com/img-Aw9y22ZZbYdwd50w-24.gif' border='0' alt='web counter free'>
     </a>
