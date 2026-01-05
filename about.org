@@ -1,4 +1,4 @@
-#+TITLE: About Dylan (Me)
+#+TITLE: About Dylan
 #+CONVERT: no
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/>
 #+HTML_HEAD: <div class="navbar"><a href="index.html">Home</a> | <a href="about.html">About</a></div> <div class ="box"></box>
@@ -7,6 +7,8 @@
 #+OPTIONS: num:nil
 #+HTML_HEAD_EXTRA: <style>  img { max-width: 100%; height: auto; } </style>
 
-Hello. I am a second-year philosophy undergraduate at LSE, who transferred from Imperial after doing physics there for a year. I live on a boat in Hackney and wear garish shirts but I promise I am a swell dude nonetheless.
+Hello. I am a second-year Philosophy undergraduate at LSE, who transferred from Imperial after doing Physics there for a year. I live on a boat in Hackney and wear garish shirts but I promise I am a swell dude nonetheless.
+
+#+CAPTION: Self portrait circa 2009.
 #+attr_html: :width 50%
 [[file:me.png]]
