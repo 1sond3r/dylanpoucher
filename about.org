@@ -7,7 +7,6 @@
 #+OPTIONS: num:nil
 #+HTML_HEAD_EXTRA: <style>  img { max-width: 100%; height: auto; } </style>
 
+Hello. I am a second-year philosophy undergraduate at LSE, who transferred from Imperial after doing physics there for a year. I live on a boat in Hackney and wear garish shirts but I promise I am a swell dude nonetheless.
 #+attr_html: :width 50%
 [[file:me.png]]
-
-Hello. I am a second-year philosophy undergraduate at LSE, who transferred from Imperial after doing physics there for a year. I live on a boat in Hackney and wear garish shirts but I promise I am a swell dude nonetheless.
