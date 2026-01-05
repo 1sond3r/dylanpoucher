@@ -27,13 +27,13 @@ Technique A has a success rate known to the agents (0.5), while technique B has 
 Here are some examples of different network topologies (from Wikipedia):
 
 #+CAPTION: A Complete graph. Every node is connected to every other node.
-#+attr_html: :width 50%;
+#+attr_html: :width 50%; :style background-color: white;
 https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Complete_graph_K5.svg/2304px-Complete_graph_K5.svg.png
 
 Information spreads quickly in highly connected networks: if theory B fails for somebody, lots of people hear about it. Conversely, networks represented by graphs like the cycle have much less communication, each agent having much fewer neighbours.
 
 #+CAPTION: A Cycle graph. Every node is connected to exactly two other nodes.
-#+attr_html: :width 50%;
+#+attr_html: :width 50%; :style background-color: white;
 https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Circle_graph_C5.svg/1142px-Circle_graph_C5.svg.png
 
 One might reasonably expect that more communication, and thus using complete graphs in our model, is effective for knowledge gathering. However, embed the logic we have been discussing in a python simulation and something rather interesting occurs:
