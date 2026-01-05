@@ -1,7 +1,7 @@
 #+TITLE: David Bowie's "Young Americans"
 #+SUBTITLE: His most important album
 #+TAGS: Culture
-#+DATE: 29-07-25
+#+DATE: 2025-11-25
 #+CONVERT: yes
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css"/>
 #+HTML_HEAD: <div class="navbar"><a href="index.html">Home</a> | <a href="about.html">About</a></div> <div class ="box"></box>
@@ -33,7 +33,7 @@ By 1974, glam — and, as if spiritually linked, Bolan himself — were starting
 https://i.pinimg.com/736x/01/79/60/017960beece4704804a654ed8b011b23.jpg
 
 
-Bowie very well could have gone through the same thing. He also, besides a folk hit or two, had essentially derived his success up to 1974 from feeding off and perpetuating the glam wave — scoring eight top tens from ’72 to ’74. Though he too felt the wind changing by ’74 and began to dabble in funk and soul to questionable effect. While remaining a fundamentally glam project, with big unalloyed glam singles like /Rebel Rebel/, /Diamond Dogs/' tracklist was bespeckled with new African-American influences — principally, the Shaft-feeling /1984/ and backing-singer-filled /Rock ’n’ Roll with Me/. While I rather enjoy these influences — as in Bolan’s case, they contribute to a rock decadence which I personally find irresistible — there's with it a new sense of inauthenticity which isn’t entirely deliberate. They feel like /Aladdin Sane/ in a polyester suit. An album exclusively of songs like them would be problematic indeed — if not for me, then for the public and critics.
+Bowie very well could have gone through the same thing. He also, besides a folk hit or two, had essentially derived his success up to 1974 from feeding off and perpetuating the glam wave — scoring eight top tens from ’72 to ’74. Though he too felt the wind changing by ’74 and began to dabble in funk and soul to questionable effect. While remaining a fundamentally glam project, with big unalloyed glam singles like /Rebel Rebel/, /Diamond Dogs/' tracklist was speckled with new African-American influences — principally, the Shaft-feeling /1984/ and backing-singer-filled /Rock ’n’ Roll with Me/. While I rather enjoy these influences — as in Bolan’s case, they contribute to a rock decadence which I find irresistible — there's with it a new sense of inauthenticity which isn’t entirely deliberate - like /Aladdin Sane/ has been forced into a polyester suit. An album exclusively of songs like them would be problematic indeed — if not for me, then for the public and critics.
 
 Well, a release just like that kind of happened later in the year with /David Live/ — a fascinating live album coinciding with the American /Diamond Dogs/ tour of July 1974. It freeze-frames Bowie mid soul-inflection, having funked up all of his material for the stage — but without any justification why yet. The reviews were so brutal that Mick Jagger commented he would never record again if he got them. Some examples: “A weird and utterly incongruous melange of glitter sentiment, negritudinal trappings (yikes), cocaine ecstasy and Vegas schmaltz.” (Lester Bangs). “The artiste [is] at his laryngeal nadir, [the album is] mired in bullshit pessimism and arena-rock pandering — and the soul frills just make it worse.” (Robert Christgau). Part of the problem was that the soul stylings were perceived as mere “frills.” In spite of the side-parted hair and new plastic-y sheen over the songs, they continued to be played by the original, distinctly English /Diamond Dogs/ band. Quite a band, with names like Herbie Flowers on bass and Earl Slick on guitar — but hardly genre-authentic.
 

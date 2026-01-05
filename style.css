@@ -4,6 +4,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
+html {
+  zoom: 1.1; /* 110% scale */
+}
 
 @keyframes rainbow-text {
     0%   { color: red; }
@@ -21,13 +24,14 @@
     font-family: 'UnifrakturMaguntia', serif;
     color: #fbf1c7;
     font-size: 130px;
-    margin-top: -10px;
+    margin-top: -30px;
 }
 
 .box {
   background-color: #101417;
-  padding-left: 20px;
-  padding-right: 20px
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
 }
 
 @font-face {
@@ -49,7 +53,7 @@ body {
     color: #ffffff; Soft white */
     background-image: url("AdobeStock_479037072.jpeg");
     background-size: 700px;
-    max-width: 750px;
+    max-width: 800px;
     margin: auto;
     padding: 20px;
     font-size: 20px;
@@ -63,7 +67,7 @@ h1 {
     font-weight:bold;
     font-size: 75px; /* Slightly reduced */
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: -10px;
 }
 
@@ -159,7 +163,7 @@ a:hover {
 
 .navbar a {
     margin: 0 15px;
-    font-size: 18px;
+    font-size: 25px;
     color: #fbf1c7;
 }
 
@@ -226,7 +230,7 @@ span.subtitle {
     color: #BBBBBB !important;
     display: block !important;
     margin-top: 40px !important;
-    margin-bottom: -10px !important;
+    margin-bottom: 40px !important;
 }
 /* ========================= */
 /* Footer Styling */
