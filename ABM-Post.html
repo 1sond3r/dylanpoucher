@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-01-05 Mon 14:16 -->
+<!-- 2026-01-05 Mon 14:32 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Exploring ABMs</title>
@@ -268,7 +268,7 @@ Here are some examples of different network topologies (from Wikipedia):
 </p>
 
 
-<div id="org3cf54d0" class="figure">
+<div id="org41161fb" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Complete_graph_K5.svg/2304px-Complete_graph_K5.svg.png" alt="2304px-Complete_graph_K5.svg.png" width="50%;" style="background-color: white;" />
 </p>
 <p><span class="figure-number">Figure 1: </span>A Complete graph. Every node is connected to every other node.</p>
@@ -279,7 +279,7 @@ Information spreads quickly in highly connected networks: if theory B fails for 
 </p>
 
 
-<div id="orgf706474" class="figure">
+<div id="orgb30986c" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Circle_graph_C5.svg/1142px-Circle_graph_C5.svg.png" alt="1142px-Circle_graph_C5.svg.png" width="50%;" style="background-color: white;" />
 </p>
 <p><span class="figure-number">Figure 2: </span>A Cycle graph. Every node is connected to exactly two other nodes.</p>
@@ -290,7 +290,7 @@ One might reasonably expect that more communication, and thus using complete gra
 </p>
 
 
-<div id="org0f08a78" class="figure">
+<div id="orgc0176dd" class="figure">
 <p><img src="./Zollman_Complete_Fail.png" alt="Zollman_Complete_Fail.png" width="100%;" />
 </p>
 <p><span class="figure-number">Figure 3: </span>The result of a simulation run with a complete network topology. Belief in theory B gains some early traction before all agents suddenly switch to using inferior theory A.</p>
@@ -301,7 +301,7 @@ At first glance, this is a surprising result! In slightly less than half of runs
 </p>
 
 
-<div id="orgd20cab8" class="figure">
+<div id="orgad316bf" class="figure">
 <p><img src="./Zollman_cycle.png" alt="Zollman_cycle.png" />
 </p>
 <p><span class="figure-number">Figure 4: </span>The simulation using a cycle network topology. Belief in theory B slowly but steadily becomes predominant.</p>
@@ -338,15 +338,15 @@ All in all, I don't think you can exhaustively explain individual real-world phe
 <p>
 Anyway, onwards and upwards! Let's explore some more models!
 </p>
-<div id="outline-container-org27902dc" class="outline-2">
-<h2 id="org27902dc">Extending to Multiple Theories</h2>
-<div class="outline-text-2" id="text-org27902dc">
+<div id="outline-container-orgcbaf142" class="outline-2">
+<h2 id="orgcbaf142">Extending to Multiple Theories</h2>
+<div class="outline-text-2" id="text-orgcbaf142">
 <p>
 A natural extension of the Zollman model is to add more theories with differing rates of success. We remove the "given" theory A, and now establish utility of all theories with the beta binomial formula. In the following model, we have ten competing theories - with true rates ranging uniformly from 0.4 to 0.8 - and 12 agents testing them. I absolutely love this visualisation:
 </p>
 
 
-<div id="orgd83859a" class="figure">
+<div id="org7139277" class="figure">
 <p><img src="./paradigm-shift-2.png" alt="paradigm-shift-2.png" />
 </p>
 <p><span class="figure-number">Figure 5: </span>12 agents' favourite of 10 theories over time in a connected network. Note the series of rapid changes.</p>
@@ -361,7 +361,7 @@ Also note how the best theory, light blue, does not win. Much like with the two-
 </p>
 
 
-<div id="org933cb9f" class="figure">
+<div id="org30136ec" class="figure">
 <p><img src="./multi-cycle.png" alt="multi-cycle.png" />
 </p>
 <p><span class="figure-number">Figure 6: </span>The same setup using a cycle network. Blue gradually comes to dominate (I had to increase the number of rounds for this).</p>
@@ -376,15 +376,15 @@ My own small contribution to this field is based upon this multi-theory extensio
 </p>
 </div>
 </div>
-<div id="outline-container-org8b934e7" class="outline-2">
-<h2 id="org8b934e7">Risk takers and Risk Aversion</h2>
-<div class="outline-text-2" id="text-org8b934e7">
+<div id="outline-container-org88aafb4" class="outline-2">
+<h2 id="org88aafb4">Risk takers and Risk Aversion</h2>
+<div class="outline-text-2" id="text-org88aafb4">
 <p>
 My model is based on the multi-theory Bayesian model described above. After some experimentation with different ideas (in-group/out-group biasing, bounded rationality, etc) I found these results the most interesting.
 </p>
 
 <p>
-The idea originates from the "Division of Cognitive Labour" idea. That is, the concept that it is epistemically advantageous for the community for different agents to have different priorities to each other. This idea was first modelled in "Epistemic Landscapes and the Division of Cognitive Labor" (2009). Epistemic landscapes are where agents are placed on a hilly surface - the height of which represents the success or "truth" of that position. The paper tried to show how a group of "mavericks" who deliberately avoided agents following nearby theories, added to a group of "followers" and "climbers", systematically improved group performance. My variation on this is that agents aren't divided between social and antisocial, but rather between risk averse and risk taking.
+The idea originates from the "Division of Cognitive Labour" idea. That is, the concept that it is epistemically advantageous for the community for different agents to have different priorities to each other. This idea was first modelled in "Epistemic Landscapes and the Division of Cognitive Labor" (2009). Epistemic landscapes are where agents are placed on a hilly surface - the height of which represents the success or "truth" of that position. The paper tried to show how a group of "mavericks" who deliberately avoided agents following nearby theories, added to a group of "followers" and "climbers", systematically improved group performance. My variation on this is that agents aren't divided between social and antisocial, but rather between risk-averse and risk-taking.
 </p>
 
 <p>
@@ -400,7 +400,7 @@ I take the variance in this model to correlate to something along the lines of "
 </p>
 
 <p>
-In my model, there are three types of character. The risk taking, the risk averse, and normal rational agent we met in our previous models. There is one parameter which controls all these agents' behaviour, \(\lambda\). The preference ordering, which was previously just the mean of each distribution, is now weighted according to variance and the value of \(\lambda\). That is:
+In my model, there are three types of character. The risk-taking, the risk-averse, and normal rational agent we met in our previous models. There is one parameter which controls all these agents' behaviour, \(\lambda\). The preference ordering, which was previously just the mean of each distribution, is now weighted according to variance and the value of \(\lambda\). That is:
 </p>
 
 <p>
@@ -412,40 +412,40 @@ In my model, there are three types of character. The risk taking, the risk avers
 </p>
 
 <p>
-With this setup, positive \(\lambda\) makes the agents risk averse. They will weight means with high variance lower. This makes them "exploiters." Negative \(\lambda\) does the opposite, and makes agents weigh means with high variance higher. This makes them "explorers" and means that they may pick theories with low means just because they are under-explored. Here are some examples of typical runs using these different agents. Each, apart from the new agents' attitude, uses all the same parameters as the previous model (in a complete network):
+With this setup, positive \(\lambda\) makes the agents risk-averse. They will weight means with high variance lower. This makes them "exploiters." Negative \(\lambda\) does the opposite, and makes agents weigh means with high variance higher. This makes them "explorers" and means that they may pick theories with low means just because they are under-explored. Here are some examples of typical runs using these different agents. Each, apart from the new agents' attitude, uses all the same parameters as the previous model (in a complete network):
 </p>
 
 
-<div id="org709188b" class="figure">
+<div id="org5233486" class="figure">
 <p><img src="./risk-seeking.png" alt="risk-seeking.png" />
 </p>
 <p><span class="figure-number">Figure 7: </span>A community consisting only of risk-seeking agents (\(\lambda=-4\)). They absolutely love to shift, but usually settle on the best theory eventually.</p>
 </div>
 
 
-<div id="orgadd0d50" class="figure">
+<div id="orga889839" class="figure">
 <p><img src="./risk-averse.png" alt="risk-averse.png" />
 </p>
 <p><span class="figure-number">Figure 8: </span>A community consisting only of risk-averse agents (\(\lambda=4\)). They don't shift much, and tend to quickly settle upon a mediocre theory.</p>
 </div>
 
 <p>
-This alone provides some moderately interesting results. Communities consisting solely of risk seeking agents tend to do better in the long run than purely rational/averse agents, but worse in the short term. They spent a protracted time testing out garbage theories, but this allows them to eventually pick the best with confidence. Conversely, communities consisting of risk averse agents can, in some conditions, actually perform better in the short term than their rational rivals (and certainly better than the risk-seeking) but tend to do far worse in the long term.
+This alone provides some moderately interesting results. Communities consisting solely of risk seeking agents tend to do better in the long run than purely rational/averse agents, but worse in the short term. They spent a protracted time testing out garbage theories, but this allows them to eventually pick the best with confidence. Conversely, communities consisting of risk-averse agents can, in some conditions, actually perform better in the short term than their rational rivals (and certainly better than the risk-seeking) but tend to do far worse in the long term.
 </p>
 
 <p>
-The most interesting setup of all, however, is a combination of the two: a community consisting of a majority of risk averse agents, plus a small minority (25%) of risk takers:
+The most interesting setup of all, however, is a combination of the two: a community consisting of a majority of risk-averse agents, plus a small minority (25%) of risk takers:
 </p>
 
 
-<div id="orga15ad66" class="figure">
+<div id="org96d5a89" class="figure">
 <p><img src="./seeker-averse.png" alt="seeker-averse.png" />
 </p>
 <p><span class="figure-number">Figure 9: </span>A heterogeneous community of agents. The top three rows represent the pet theories of the risk-seeking, the rest of the risk-averse. Note how the risk-averse quickly settle upon the best theory, while the risk-seeking take some time to catch up.</p>
 </div>
 
 <p>
-I think this is amazing! Having even a small number of risk seekers among a community of risk averse basically combines the best of both worlds. The long term results are almost as good as a fully risk-taking community (thus, better than the rational agents), while mitigating some of the early drawbacks. The risk-averse are essentially able to step away and "piggyback" off the results of the risk-takers. Unfortunately, this is done at the expense of the risk takers themselves: the risk averse settle on the best theory much earlier than the risk takers.
+I think this is amazing! Having even a small number of risk seekers among a community of risk-averse basically combines the best of both worlds. The long term results are almost as good as a fully risk-taking community (thus, better than the rational agents), while mitigating some of the early drawbacks. The risk-averse are essentially able to step away and "piggyback" off the results of the risk takers. Unfortunately, this is done at the expense of the risk takers themselves: the risk-averse settle on the best theory much earlier than the risk takers.
 </p>
 
 <p>
@@ -453,13 +453,13 @@ To illustrate this, I simulated each community configuration 1000 times - measur
 </p>
 
 
-<div id="orgb2ceeb5" class="figure">
+<div id="org0edbf99" class="figure">
 <p><img src="./summary-graph.png" alt="summary-graph.png" />
 </p>
 </div>
 
 <p>
-Risk averse agents do well early on, but quickly plateau at mediocrity. Rational agents improve for longer but still nevertheless plateau. Meanwhile, risk-seeking agents do poorly at the start, but eventually become the most epistemically successful. What's interesting is that communities consisting of 25% risk takers and either risk-averse or rational agents <i>both</i> end up doing nearly as well as each other - it seems that the temperament of the majority of the scientific population doesn't matter much, as long as you have a few risk takers! Not only that, but mixed communities also, as indicated, avoid some of the early pitfalls of purely risk-taking agents. I think these are pretty cool results.
+Risk-averse agents do well early on, but quickly plateau at mediocrity. Rational agents improve for longer but still nevertheless plateau. Meanwhile, risk-seeking agents do poorly at the start, but eventually become the most epistemically successful. What's interesting is that communities consisting of 25% risk takers and either risk-averse or rational agents <i>both</i> end up doing nearly as well as each other - it seems that the temperament of the majority of the scientific population doesn't matter much, as long as you have a few risk takers! Not only that, but mixed communities also, as indicated, avoid some of the early pitfalls of purely risk-taking agents. I think these are pretty cool results.
 </p>
 
 <p>
@@ -467,7 +467,7 @@ By the way, I ran the same simulation on a cycle network:
 </p>
 
 
-<div id="org1777468" class="figure">
+<div id="org219aa34" class="figure">
 <p><img src="./mix-cycle.png" alt="mix-cycle.png" />
 </p>
 <p><span class="figure-number">Figure 10: </span>A graph displaying the efficacy of each epistemic community in a cycle network (I had to include three times the number of rounds).</p>
@@ -498,7 +498,7 @@ Where \(U_t\) is the utility of theory t, \(Q_t\) is the mean result of the theo
 </p>
 
 <p>
-Perhaps this re-frames what the scientific community may (optimally) be: a massive, distributed reinforcement learning system. Risk-takers contribute to making that system closer to what AI research has discovered to be maximally efficient. Maybe also we can encourage RL-type behaviour with targeted kinds of funding grants, aimed at stimulating interest in high-variance, otherwise risky, research. I'm just spitballin' here though.
+Perhaps this re-frames what the scientific community may (optimally) be: a massive, distributed reinforcement learning system. Risk takers contribute to making that system closer to what AI research has discovered to be maximally efficient. Maybe also we can encourage RL-type behaviour with targeted kinds of funding grants, aimed at stimulating interest in high-variance, otherwise risky, research. I'm just spitballin' here though.
 </p>
 
 <p>

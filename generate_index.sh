@@ -83,7 +83,7 @@ done
 # JavaScript (corrected and checked carefully!)
 cat >> "$OUTPUT_DIR/index.html" <<'EOL'
 </ul>
-<div class="footer">© Dylan 2025. Written in Emacs Orgmode because I am the man, man.</div>
+<div class="footer">© Dylan 2026. Written in Emacs Orgmode because I am the man, man.</div>
 <script>
 let activeFilters = new Set();
 
