@@ -285,3 +285,238 @@ span.subtitle {
 .tag:hover, .active-filter:hover {
     filter: brightness(1.2); /* Slightly brighten on hover */
 }
+
+/* ========================= */
+/* MOBILE RESPONSIVE STYLES */
+/* ========================= */
+
+/* Tablet and smaller */
+@media screen and (max-width: 850px) {
+    html {
+        zoom: 1; /* Remove zoom on smaller screens */
+    }
+
+    body {
+        padding: 15px;
+        font-size: 18px;
+        background-size: 500px;
+    }
+
+    .rainbow-title {
+        font-size: 90px;
+        margin-top: -20px;
+    }
+
+    h1 {
+        font-size: 55px;
+        padding-top: 30px;
+    }
+
+    h2 {
+        font-size: 32px;
+        padding-top: 15px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    span.subtitle {
+        font-size: 30px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .navbar a {
+        margin: 0 10px;
+        font-size: 22px;
+    }
+
+    .box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Mobile phones */
+@media screen and (max-width: 600px) {
+    html {
+        zoom: 1;
+    }
+
+    body {
+        padding: 12px;
+        font-size: 17px;
+        line-height: 1.5;
+        background-size: 400px;
+        max-width: 100%;
+    }
+
+    .rainbow-title {
+        font-size: 60px;
+        margin-top: -15px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    h1 {
+        font-size: 38px;
+        padding-top: 25px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+
+    h2 {
+        font-size: 26px;
+        padding-top: 12px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    span.subtitle {
+        font-size: 24px !important;
+        margin-top: 25px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+
+    .navbar a {
+        margin: 0 8px;
+        font-size: 18px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .box {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 8px;
+    }
+
+    /* Blog post list adjustments */
+    ul {
+        margin-top: 25px;
+    }
+
+    .post-title {
+        font-size: 19px;
+    }
+
+    .post-date {
+        font-size: 14px;
+        display: block;
+        margin-left: 0;
+        margin-top: 3px;
+    }
+
+    .post-subtitle {
+        font-size: 16px;
+    }
+
+    /* Blockquote adjustments */
+    blockquote {
+        margin-left: 10px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    /* Code blocks - ensure horizontal scroll */
+    pre {
+        padding: 10px;
+        font-size: 14px;
+        max-width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+
+    #postamble {
+        font-size: 16px;
+    }
+
+    /* Tags */
+    .tag, .active-filter {
+        font-size: 12px;
+        padding: 3px 6px;
+        margin-bottom: 5px;
+    }
+
+    #active-filters {
+        margin-top: -15px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Very small phones */
+@media screen and (max-width: 400px) {
+    body {
+        padding: 10px;
+        font-size: 16px;
+        background-size: 350px;
+    }
+
+    .rainbow-title {
+        font-size: 45px;
+        margin-top: -10px;
+    }
+
+    h1 {
+        font-size: 32px;
+        padding-top: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    span.subtitle {
+        font-size: 20px !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin: 0 6px;
+    }
+
+    .post-title {
+        font-size: 17px;
+    }
+
+    .post-subtitle {
+        font-size: 15px;
+    }
+
+    blockquote {
+        margin-left: 5px;
+    }
+}
+
+/* Prevent horizontal overflow on all mobile */
+@media screen and (max-width: 850px) {
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
