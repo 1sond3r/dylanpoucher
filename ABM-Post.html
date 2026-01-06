@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-01-06 Tue 12:47 -->
+<!-- 2026-01-06 Tue 13:06 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Exploring ABMs</title>
@@ -272,7 +272,7 @@ Here are some examples of different network topologies (from Wikipedia):
 </p>
 
 
-<div id="org2b15e8b" class="figure">
+<div id="org2242923" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Complete_graph_K5.svg/2304px-Complete_graph_K5.svg.png" alt="2304px-Complete_graph_K5.svg.png" width="50%;" style="background-color: white;" />
 </p>
 <p><span class="figure-number">Figure 1: </span>A Complete graph. Every node is connected to every other node.</p>
@@ -283,7 +283,7 @@ Information spreads quickly in highly connected networks: if theory B fails for 
 </p>
 
 
-<div id="org246987a" class="figure">
+<div id="orgfc9970d" class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Circle_graph_C5.svg/1142px-Circle_graph_C5.svg.png" alt="1142px-Circle_graph_C5.svg.png" width="50%;" style="background-color: white;" />
 </p>
 <p><span class="figure-number">Figure 2: </span>A Cycle graph. Every node is connected to exactly two other nodes.</p>
@@ -294,7 +294,7 @@ One might reasonably expect that more communication, and thus using complete gra
 </p>
 
 
-<div id="org6dee2c1" class="figure">
+<div id="org019926c" class="figure">
 <p><img src="./Zollman_Complete_Fail.png" alt="Zollman_Complete_Fail.png" width="100%;" />
 </p>
 <p><span class="figure-number">Figure 3: </span>The result of a simulation run with a complete network topology. Belief in theory B gains some early traction before all agents suddenly switch to using inferior theory A.</p>
@@ -305,7 +305,7 @@ At first glance, this is a surprising result! In slightly less than half of runs
 </p>
 
 
-<div id="orgea18551" class="figure">
+<div id="org7a659d9" class="figure">
 <p><img src="./Zollman_cycle.png" alt="Zollman_cycle.png" />
 </p>
 <p><span class="figure-number">Figure 4: </span>The simulation using a cycle network topology. Belief in theory B slowly but steadily becomes predominant.</p>
@@ -342,15 +342,15 @@ All in all, I don't think you can exhaustively explain individual real-world phe
 <p>
 Anyway, onwards and upwards! Let's explore some more models!
 </p>
-<div id="outline-container-orgb844e3f" class="outline-2">
-<h2 id="orgb844e3f">Extending to Multiple Theories</h2>
-<div class="outline-text-2" id="text-orgb844e3f">
+<div id="outline-container-org8c5313f" class="outline-2">
+<h2 id="org8c5313f">Extending to Multiple Theories</h2>
+<div class="outline-text-2" id="text-org8c5313f">
 <p>
 A natural extension of the Zollman model is to add more theories with differing rates of success. We remove the "given" theory A, and now establish utility of all theories with the beta binomial formula. In the following model, we have ten competing theories - with true rates ranging uniformly from 0.4 to 0.8 - and 12 agents testing them. I absolutely love this visualisation:
 </p>
 
 
-<div id="org4327b0b" class="figure">
+<div id="org3982a26" class="figure">
 <p><img src="./paradigm-shift-2.png" alt="paradigm-shift-2.png" />
 </p>
 <p><span class="figure-number">Figure 5: </span>12 agents' favourite of 10 theories over time in a connected network. Note the series of rapid changes.</p>
@@ -365,7 +365,7 @@ Also note how the best theory, light blue, does not win. Much like with the two-
 </p>
 
 
-<div id="org1d1bb22" class="figure">
+<div id="orga7e517e" class="figure">
 <p><img src="./multi-cycle.png" alt="multi-cycle.png" />
 </p>
 <p><span class="figure-number">Figure 6: </span>The same setup using a cycle network. Blue gradually comes to dominate (I had to increase the number of rounds for this).</p>
@@ -380,9 +380,9 @@ My own small contribution to this field is based upon this multi-theory extensio
 </p>
 </div>
 </div>
-<div id="outline-container-orgb05b64b" class="outline-2">
-<h2 id="orgb05b64b">Risk takers and Risk Aversion</h2>
-<div class="outline-text-2" id="text-orgb05b64b">
+<div id="outline-container-org264f438" class="outline-2">
+<h2 id="org264f438">Risk takers and Risk Aversion</h2>
+<div class="outline-text-2" id="text-org264f438">
 <p>
 My model is based on the multi-theory Bayesian model described above. After some experimentation with different ideas (in-group/out-group biasing, bounded rationality, etc) I found these results the most interesting.
 </p>
@@ -420,14 +420,14 @@ With this setup, positive \(\lambda\) makes the agents risk-averse. They will we
 </p>
 
 
-<div id="org469ab3f" class="figure">
+<div id="orgb245920" class="figure">
 <p><img src="./risk-seeking.png" alt="risk-seeking.png" />
 </p>
 <p><span class="figure-number">Figure 7: </span>A community consisting only of risk-seeking agents (\(\lambda=-4\)). They absolutely love to shift, but usually settle on the best theory eventually.</p>
 </div>
 
 
-<div id="org5096207" class="figure">
+<div id="org2aa1bb3" class="figure">
 <p><img src="./risk-averse.png" alt="risk-averse.png" />
 </p>
 <p><span class="figure-number">Figure 8: </span>A community consisting only of risk-averse agents (\(\lambda=4\)). They don't shift much, and tend to quickly settle upon a mediocre theory.</p>
@@ -442,7 +442,7 @@ The most interesting setup of all, however, is a combination of the two: a commu
 </p>
 
 
-<div id="org07d967d" class="figure">
+<div id="orgf5effce" class="figure">
 <p><img src="./seeker-averse.png" alt="seeker-averse.png" />
 </p>
 <p><span class="figure-number">Figure 9: </span>A heterogeneous community of agents. The top three rows represent the pet theories of the risk-seeking, the rest of the risk-averse. Note how the risk-averse quickly settle upon the best theory, while the risk-seeking take some time to catch up.</p>
@@ -457,10 +457,13 @@ To illustrate this, I simulated each community configuration 1000 times - measur
 </p>
 
 
-<div id="org9d66bbb" class="figure">
+
+<div id="org12d1396" class="figure">
 <p><img src="./summary-graph.png" alt="summary-graph.png" />
 </p>
+<p><span class="figure-number">Figure 10: </span>A graph displaying the efficacy of each epistemic community in a complete network.</p>
 </div>
+
 
 <p>
 Risk-averse agents do well early on, but quickly plateau at mediocrity. Rational agents improve for longer but still nevertheless plateau. Meanwhile, risk-seeking agents do poorly at the start, but eventually become the most epistemically successful. What's interesting is that communities consisting of 25% risk takers and either risk-averse or rational agents <i>both</i> end up doing nearly as well as each other - it seems that the temperament of the majority of the scientific population doesn't matter much, as long as you have a few risk takers! Not only that, but mixed communities also, as indicated, avoid some of the early pitfalls of purely risk-taking agents. I think these are pretty cool results.
@@ -471,10 +474,10 @@ By the way, I ran the same simulation on a cycle network:
 </p>
 
 
-<div id="org4419580" class="figure">
+<div id="orge15f7ce" class="figure">
 <p><img src="./mix-cycle.png" alt="mix-cycle.png" />
 </p>
-<p><span class="figure-number">Figure 10: </span>A graph displaying the efficacy of each epistemic community in a cycle network (I had to include three times the number of rounds).</p>
+<p><span class="figure-number">Figure 11: </span>A graph displaying the efficacy of each epistemic community in a cycle network (I had to include three times the number of rounds).</p>
 </div>
 
 <p>

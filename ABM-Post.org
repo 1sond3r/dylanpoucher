@@ -118,8 +118,10 @@ I think this is amazing! Having even a small number of risk seekers among a comm
 
 To illustrate this, I simulated each community configuration 1000 times - measuring the average utility of the entire community each round, and then averaging the averages. This graph sums up the results:
 
+
 #+CAPTION: A graph displaying the efficacy of each epistemic community in a complete network.
 [[./summary-graph.png]]
+
 
 Risk-averse agents do well early on, but quickly plateau at mediocrity. Rational agents improve for longer but still nevertheless plateau. Meanwhile, risk-seeking agents do poorly at the start, but eventually become the most epistemically successful. What's interesting is that communities consisting of 25% risk takers and either risk-averse or rational agents /both/ end up doing nearly as well as each other - it seems that the temperament of the majority of the scientific population doesn't matter much, as long as you have a few risk takers! Not only that, but mixed communities also, as indicated, avoid some of the early pitfalls of purely risk-taking agents. I think these are pretty cool results.
 
