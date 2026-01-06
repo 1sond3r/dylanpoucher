@@ -10,7 +10,7 @@
 #+OPTIONS: num:nil
 #+HTML_HEAD_EXTRA: <style>  img { max-width: 100%; height: auto; } </style>
 
-Science is rarely a solitary pursuit; it is, increasingly perhaps, a collective one. But how does the structure of that collective influence what we believe to be true or best? Using Agent-Based Models (ABMs), we can simulate abstracted "epistemic communities" to test how knowledge gathering is effected by particular social norms and individuals' particular practices embedded in a social context. I think this is quite an exciting idea! I want here to explore some of the most important results produced the field so far, and (humbly) present my own extension.
+Science is rarely a solitary pursuit; it is, increasingly perhaps, a collective one. But how does the structure of that collective influence what we believe to be true or best? Using Agent-Based Models (ABMs), we can simulate abstracted "epistemic communities" to test how knowledge gathering is affected by particular social norms and individuals' particular practices embedded in a social context. I think this is quite an exciting idea! I want here to explore some of the most important results produced the field so far, and (humbly) present my own extension.
 
 It all began like this:
 
