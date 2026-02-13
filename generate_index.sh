@@ -23,14 +23,10 @@ cat > "$OUTPUT_DIR/index.html" <<'EOL'
 <h1 class="rainbow-title">Dylan's Blog</h1>
 <div class ="box"></box>
 
-<div align="left" style="position: relative; top: 25px; margin-bottom: -45px; width: fit-content;">
-    <a href='https://www.counter12.com'>
-        <img src='https://www.counter12.com/img-Aw9y22ZZbYdwd50w-24.gif' border='0' alt='web counter free'>
-    </a>
-    <script type='text/javascript' src='https://www.counter12.com/ad.js?id=Aw9y22ZZbYdwd50w'></script>
+<div align="left" style="position: relative; top: 25px; margin-bottom: 0px; width: fit-content;">
 </div>
 
-<div style="height: 0px;"></div>
+<div style="height: 10px;"></div>
 
 <ul>
 EOL
